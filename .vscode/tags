@@ -1,0 +1,1169 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AudioCleanupCb	../pyparrot/utils/vlc.py	/^    AudioCleanupCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p)$/;"	kind:variable	line:1315
+AudioCleanupCb	../pyparrot/utils/vlc.py	/^class AudioCleanupCb(ctypes.c_void_p):$/;"	kind:class	line:1162
+AudioDrainCb	../pyparrot/utils/vlc.py	/^    AudioDrainCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p)$/;"	kind:variable	line:1293
+AudioDrainCb	../pyparrot/utils/vlc.py	/^class AudioDrainCb(ctypes.c_void_p):$/;"	kind:class	line:1137
+AudioFlushCb	../pyparrot/utils/vlc.py	/^    AudioFlushCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_int64)$/;"	kind:variable	line:1286
+AudioFlushCb	../pyparrot/utils/vlc.py	/^class AudioFlushCb(ctypes.c_void_p):$/;"	kind:class	line:1129
+AudioOutput	../pyparrot/utils/vlc.py	/^class AudioOutput(_Cstruct):$/;"	kind:class	line:1325
+AudioOutputChannel	../pyparrot/utils/vlc.py	/^class AudioOutputChannel(_Enum):$/;"	kind:class	line:941
+AudioOutputDevice	../pyparrot/utils/vlc.py	/^class AudioOutputDevice(_Cstruct):$/;"	kind:class	line:1558
+AudioOutputDeviceTypes	../pyparrot/utils/vlc.py	/^class AudioOutputDeviceTypes(_Enum):$/;"	kind:class	line:917
+AudioPauseCb	../pyparrot/utils/vlc.py	/^    AudioPauseCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_int64)$/;"	kind:variable	line:1271
+AudioPauseCb	../pyparrot/utils/vlc.py	/^class AudioPauseCb(ctypes.c_void_p):$/;"	kind:class	line:1112
+AudioPlayCb	../pyparrot/utils/vlc.py	/^    AudioPlayCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p, ctypes.c_uint, ctypes.c_int64)$/;"	kind:variable	line:1253
+AudioPlayCb	../pyparrot/utils/vlc.py	/^class AudioPlayCb(ctypes.c_void_p):$/;"	kind:class	line:1093
+AudioResumeCb	../pyparrot/utils/vlc.py	/^    AudioResumeCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_int64)$/;"	kind:variable	line:1278
+AudioResumeCb	../pyparrot/utils/vlc.py	/^class AudioResumeCb(ctypes.c_void_p):$/;"	kind:class	line:1120
+AudioSetVolumeCb	../pyparrot/utils/vlc.py	/^    AudioSetVolumeCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_float, ctypes.c_bool)$/;"	kind:variable	line:1300
+AudioSetVolumeCb	../pyparrot/utils/vlc.py	/^class AudioSetVolumeCb(ctypes.c_void_p):$/;"	kind:class	line:1145
+AudioSetupCb	../pyparrot/utils/vlc.py	/^    AudioSetupCb = ctypes.CFUNCTYPE(ctypes.POINTER(ctypes.c_int), ctypes.POINTER(ctypes.c_void_p), ctypes.c_char_p, ctypes.POINTER(ctypes.c_uint), ctypes.POINTER(ctypes.c_uint))$/;"	kind:variable	line:1306
+AudioSetupCb	../pyparrot/utils/vlc.py	/^class AudioSetupCb(ctypes.c_void_p):$/;"	kind:class	line:1152
+AudioTrack	../pyparrot/utils/vlc.py	/^class AudioTrack(_Cstruct):$/;"	kind:class	line:1389
+BLEAvailable	../pyparrot/Mambo.py	/^    BLEAvailable = False$/;"	kind:variable	line:13
+BLEAvailable	../pyparrot/Mambo.py	/^    BLEAvailable = True$/;"	kind:variable	line:11
+BLEAvailable	../pyparrot/findMambo.py	/^    BLEAvailable = False$/;"	kind:variable	line:14
+BLEAvailable	../pyparrot/findMambo.py	/^    BLEAvailable = True$/;"	kind:variable	line:12
+BLEConnection	../pyparrot/networking/bleConnection.py	/^class BLEConnection:$/;"	kind:class	line:50
+Bebop	../pyparrot/Bebop.py	/^class Bebop:$/;"	kind:class	line:58
+Bebop.py	../pyparrot/Bebop.py	1;"	kind:file	line:1
+BebopSensors	../pyparrot/Bebop.py	/^class BebopSensors:$/;"	kind:class	line:13
+Bottom	../pyparrot/utils/vlc.py	/^    Bottom       = 8$/;"	kind:variable	line:1457
+BottomCenter	../pyparrot/utils/vlc.py	/^    BottomCenter = 8$/;"	kind:variable	line:1458
+BottomLeft	../pyparrot/utils/vlc.py	/^    BottomLeft   = 9$/;"	kind:variable	line:1459
+BottomRight	../pyparrot/utils/vlc.py	/^    BottomRight  = 10$/;"	kind:variable	line:1460
+Callback	../pyparrot/utils/vlc.py	/^    Callback = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p)$/;"	kind:variable	line:1170
+Callback	../pyparrot/utils/vlc.py	/^class Callback(ctypes.c_void_p):$/;"	kind:class	line:999
+CallbackDecorators	../pyparrot/utils/vlc.py	/^class CallbackDecorators(object):$/;"	kind:class	line:1168
+CamHandler	../pyparrot/VisionServer.py	/^class CamHandler(BaseHTTPRequestHandler):$/;"	kind:class	line:52
+Center	../pyparrot/utils/vlc.py	/^    Center       = 0$/;"	kind:variable	line:1448
+CenterLeft	../pyparrot/utils/vlc.py	/^    CenterLeft   = 1$/;"	kind:variable	line:1450
+CenterRight	../pyparrot/utils/vlc.py	/^    CenterRight  = 2$/;"	kind:variable	line:1452
+ChapterDescription	../pyparrot/utils/vlc.py	/^class ChapterDescription(_Cstruct):$/;"	kind:class	line:1576
+DEFAULT_ENCODING	../pyparrot/utils/vlc.py	/^DEFAULT_ENCODING = 'utf-8'$/;"	kind:variable	line:63
+DialogQuestionType	../pyparrot/utils/vlc.py	/^class DialogQuestionType(_Enum):$/;"	kind:class	line:444
+DroneCommandParser	../pyparrot/commandsandsensors/DroneCommandParser.py	/^class DroneCommandParser:$/;"	kind:class	line:5
+DroneCommandParser.py	../pyparrot/commandsandsensors/DroneCommandParser.py	1;"	kind:file	line:1
+DroneGUI	../pyparrot/coursework/droneMapGUI.py	/^class DroneGUI:$/;"	kind:class	line:14
+DroneSensorParser	../pyparrot/commandsandsensors/DroneSensorParser.py	/^class DroneSensorParser:$/;"	kind:class	line:66
+DroneSensorParser.py	../pyparrot/commandsandsensors/DroneSensorParser.py	1;"	kind:file	line:1
+DroneVision	../pyparrot/DroneVision.py	/^class DroneVision:$/;"	kind:class	line:25
+DroneVision.py	../pyparrot/DroneVision.py	1;"	kind:file	line:1
+DroneVisionGUI	../pyparrot/DroneVisionGUI.py	/^class DroneVisionGUI:$/;"	kind:class	line:173
+DroneVisionGUI.py	../pyparrot/DroneVisionGUI.py	1;"	kind:file	line:1
+Event	../pyparrot/utils/vlc.py	/^class Event(_Cstruct):$/;"	kind:class	line:1525
+EventManager	../pyparrot/utils/vlc.py	/^class EventManager(_Ctype):$/;"	kind:class	line:1608
+EventType	../pyparrot/utils/vlc.py	/^class EventType(_Enum):$/;"	kind:class	line:460
+EventUnion	../pyparrot/utils/vlc.py	/^class EventUnion(ctypes.Union):$/;"	kind:class	line:1502
+FILE	../pyparrot/utils/vlc.py	/^class FILE(ctypes.Structure):$/;"	kind:class	line:359
+FILE_ptr	../pyparrot/utils/vlc.py	/^FILE_ptr = ctypes.POINTER(FILE)$/;"	kind:variable	line:361
+HOST_NAME	../pyparrot/VisionServer.py	/^HOST_NAME = "127.0.0.1"$/;"	kind:variable	line:35
+IMAGE_PATH	../pyparrot/VisionServer.py	/^IMAGE_PATH = "\/Users\/amy\/repos\/pyparrot\/images\/image_%03d.png"$/;"	kind:variable	line:29
+Instance	../pyparrot/utils/vlc.py	/^class Instance(_Ctype):$/;"	kind:class	line:1693
+Left	../pyparrot/utils/vlc.py	/^    Left         = 1$/;"	kind:variable	line:1449
+ListPOINTER	../pyparrot/utils/vlc.py	/^class ListPOINTER(object):$/;"	kind:class	line:317
+Log	../pyparrot/utils/vlc.py	/^class Log(ctypes.Structure):$/;"	kind:class	line:353
+LogCb	../pyparrot/utils/vlc.py	/^    LogCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_int, Log_ptr, ctypes.c_char_p, ctypes.c_void_p)$/;"	kind:variable	line:1174
+LogCb	../pyparrot/utils/vlc.py	/^class LogCb(ctypes.c_void_p):$/;"	kind:class	line:1004
+LogIterator	../pyparrot/utils/vlc.py	/^class LogIterator(_Ctype):$/;"	kind:class	line:2353
+LogLevel	../pyparrot/utils/vlc.py	/^class LogLevel(_Enum):$/;"	kind:class	line:414
+LogMessage	../pyparrot/utils/vlc.py	/^class LogMessage(_Cstruct):$/;"	kind:class	line:1336
+Log_ptr	../pyparrot/utils/vlc.py	/^Log_ptr = ctypes.POINTER(Log)$/;"	kind:variable	line:355
+Mambo	../pyparrot/Mambo.py	/^class Mambo:$/;"	kind:class	line:206
+Mambo.py	../pyparrot/Mambo.py	1;"	kind:file	line:1
+MamboDelegate	../pyparrot/networking/bleConnection.py	/^class MamboDelegate(DefaultDelegate):$/;"	kind:class	line:7
+MamboSensors	../pyparrot/Mambo.py	/^class MamboSensors:$/;"	kind:class	line:19
+Media	../pyparrot/utils/vlc.py	/^class Media(_Ctype):$/;"	kind:class	line:2391
+MediaCloseCb	../pyparrot/utils/vlc.py	/^    MediaCloseCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p)$/;"	kind:variable	line:1204
+MediaCloseCb	../pyparrot/utils/vlc.py	/^class MediaCloseCb(ctypes.c_void_p):$/;"	kind:class	line:1038
+MediaDiscoverer	../pyparrot/utils/vlc.py	/^class MediaDiscoverer(_Ctype):$/;"	kind:class	line:2747
+MediaDiscovererCategory	../pyparrot/utils/vlc.py	/^class MediaDiscovererCategory(_Enum):$/;"	kind:class	line:429
+MediaEvent	../pyparrot/utils/vlc.py	/^class MediaEvent(_Cstruct):$/;"	kind:class	line:1353
+MediaLibrary	../pyparrot/utils/vlc.py	/^class MediaLibrary(_Ctype):$/;"	kind:class	line:2813
+MediaList	../pyparrot/utils/vlc.py	/^class MediaList(_Ctype):$/;"	kind:class	line:2851
+MediaListPlayer	../pyparrot/utils/vlc.py	/^class MediaListPlayer(_Ctype):$/;"	kind:class	line:3000
+MediaOpenCb	../pyparrot/utils/vlc.py	/^    MediaOpenCb = ctypes.CFUNCTYPE(ctypes.POINTER(ctypes.c_int), ctypes.c_void_p, ctypes.POINTER(ctypes.c_void_p), ctypes.POINTER(ctypes.c_uint64))$/;"	kind:variable	line:1182
+MediaOpenCb	../pyparrot/utils/vlc.py	/^class MediaOpenCb(ctypes.c_void_p):$/;"	kind:class	line:1013
+MediaParseFlag	../pyparrot/utils/vlc.py	/^class MediaParseFlag(_Enum):$/;"	kind:class	line:746
+MediaParsedStatus	../pyparrot/utils/vlc.py	/^class MediaParsedStatus(_Enum):$/;"	kind:class	line:763
+MediaPlayer	../pyparrot/utils/vlc.py	/^class MediaPlayer(_Ctype):$/;"	kind:class	line:3156
+MediaPlayerRole	../pyparrot/utils/vlc.py	/^class MediaPlayerRole(_Enum):$/;"	kind:class	line:959
+MediaReadCb	../pyparrot/utils/vlc.py	/^    MediaReadCb = ctypes.CFUNCTYPE(ctypes.POINTER(ctypes.c_ssize_t), ctypes.c_void_p, ctypes.c_char_p, ctypes.c_size_t)$/;"	kind:variable	line:1191
+MediaReadCb	../pyparrot/utils/vlc.py	/^class MediaReadCb(ctypes.c_void_p):$/;"	kind:class	line:1023
+MediaSeekCb	../pyparrot/utils/vlc.py	/^    MediaSeekCb = ctypes.CFUNCTYPE(ctypes.POINTER(ctypes.c_int), ctypes.c_void_p, ctypes.c_uint64)$/;"	kind:variable	line:1198
+MediaSeekCb	../pyparrot/utils/vlc.py	/^class MediaSeekCb(ctypes.c_void_p):$/;"	kind:class	line:1031
+MediaSlave	../pyparrot/utils/vlc.py	/^    class MediaSlave(_Cstruct):$/;"	kind:class	line:1594
+MediaSlaveType	../pyparrot/utils/vlc.py	/^class MediaSlaveType(_Enum):$/;"	kind:class	line:780
+MediaStats	../pyparrot/utils/vlc.py	/^class MediaStats(_Cstruct):$/;"	kind:class	line:1359
+MediaTrack	../pyparrot/utils/vlc.py	/^class MediaTrack(_Cstruct):$/;"	kind:class	line:1417
+MediaTrackInfo	../pyparrot/utils/vlc.py	/^class MediaTrackInfo(_Cstruct):$/;"	kind:class	line:1378
+MediaTrackTracks	../pyparrot/utils/vlc.py	/^class MediaTrackTracks(ctypes.Union):$/;"	kind:class	line:1410
+MediaType	../pyparrot/utils/vlc.py	/^class MediaType(_Enum):$/;"	kind:class	line:727
+Meta	../pyparrot/utils/vlc.py	/^class Meta(_Enum):$/;"	kind:class	line:594
+ModuleDescription	../pyparrot/utils/vlc.py	/^class ModuleDescription(_Cstruct):$/;"	kind:class	line:1532
+NavigateMode	../pyparrot/utils/vlc.py	/^class NavigateMode(_Enum):$/;"	kind:class	line:816
+NonBlockingStreamReader	../pyparrot/utils/NonBlockingStreamReader.py	/^class NonBlockingStreamReader:$/;"	kind:class	line:17
+NonBlockingStreamReader.py	../pyparrot/utils/NonBlockingStreamReader.py	1;"	kind:file	line:1
+PORT_NUMBER	../pyparrot/VisionServer.py	/^PORT_NUMBER = 9090$/;"	kind:variable	line:41
+PYTHON3	../pyparrot/utils/vlc.py	/^    PYTHON3 = False$/;"	kind:variable	line:91
+PYTHON3	../pyparrot/utils/vlc.py	/^    PYTHON3 = True$/;"	kind:variable	line:70
+PlaybackMode	../pyparrot/utils/vlc.py	/^class PlaybackMode(_Enum):$/;"	kind:class	line:987
+Player	../pyparrot/DroneVisionGUI.py	/^class Player(QMainWindow):$/;"	kind:class	line:31
+PlaylistItem	../pyparrot/utils/vlc.py	/^class PlaylistItem(_Cstruct):$/;"	kind:class	line:1433
+Position	../pyparrot/utils/vlc.py	/^class Position(_Enum):$/;"	kind:class	line:834
+Position	../pyparrot/utils/vlc.py	/^class Position(object):$/;"	kind:class	line:1443
+PyFile_AsFd	../pyparrot/utils/vlc.py	/^    PyFile_AsFd = ctypes.pythonapi.PyObject_AsFileDescriptor$/;"	kind:variable	line:375
+PyFile_AsFile	../pyparrot/utils/vlc.py	/^    PyFile_AsFile = ctypes.pythonapi.PyFile_AsFile$/;"	kind:variable	line:386
+PyFile_FromFd	../pyparrot/utils/vlc.py	/^    PyFile_FromFd = ctypes.pythonapi.PyFile_FromFd$/;"	kind:variable	line:364
+PyFile_FromFile	../pyparrot/utils/vlc.py	/^    PyFile_FromFile = ctypes.pythonapi.PyFile_FromFile$/;"	kind:variable	line:379
+RDDescription	../pyparrot/utils/vlc.py	/^class RDDescription(_Cstruct):$/;"	kind:class	line:1601
+Rectangle	../pyparrot/utils/vlc.py	/^class Rectangle(_Cstruct):$/;"	kind:class	line:1466
+Right	../pyparrot/utils/vlc.py	/^    Right        = 2$/;"	kind:variable	line:1451
+STREAMING_IMAGE_TYPE	../pyparrot/VisionServer.py	/^STREAMING_IMAGE_TYPE = 1$/;"	kind:variable	line:49
+ScanDelegate	../pyparrot/findMambo.py	/^class ScanDelegate(DefaultDelegate):$/;"	kind:class	line:16
+State	../pyparrot/utils/vlc.py	/^class State(_Enum):$/;"	kind:class	line:652
+SubtitleTrack	../pyparrot/utils/vlc.py	/^class SubtitleTrack(_Cstruct):$/;"	kind:class	line:1405
+TeletextKey	../pyparrot/utils/vlc.py	/^class TeletextKey(_Enum):$/;"	kind:class	line:860
+TitleDescription	../pyparrot/utils/vlc.py	/^class TitleDescription(_Cstruct):$/;"	kind:class	line:1569
+Top	../pyparrot/utils/vlc.py	/^    Top          = 4$/;"	kind:variable	line:1453
+TopCenter	../pyparrot/utils/vlc.py	/^    TopCenter    = 4$/;"	kind:variable	line:1454
+TopLeft	../pyparrot/utils/vlc.py	/^    TopLeft      = 5$/;"	kind:variable	line:1455
+TopRight	../pyparrot/utils/vlc.py	/^    TopRight     = 6$/;"	kind:variable	line:1456
+TrackDescription	../pyparrot/utils/vlc.py	/^class TrackDescription(_Cstruct):$/;"	kind:class	line:1474
+TrackType	../pyparrot/utils/vlc.py	/^class TrackType(_Enum):$/;"	kind:class	line:679
+UnexpectedEndOfStream	../pyparrot/utils/NonBlockingStreamReader.py	/^class UnexpectedEndOfStream(Exception): pass/;"	kind:class	line:58
+UserCodeToRun	../pyparrot/DroneVisionGUI.py	/^class UserCodeToRun(QThread):$/;"	kind:class	line:155
+UserVision	../pyparrot/examples/demoBebopVision.py	/^class UserVision:$/;"	kind:class	line:12
+UserVision	../pyparrot/examples/demoBebopVisionGUI.py	/^class UserVision:$/;"	kind:class	line:13
+UserVision	../pyparrot/examples/demoMamboVision.py	/^class UserVision:$/;"	kind:class	line:14
+UserVision	../pyparrot/examples/demoMamboVisionGUI.py	/^class UserVision:$/;"	kind:class	line:13
+UserVisionProcessingThread	../pyparrot/DroneVisionGUI.py	/^class UserVisionProcessingThread(QThread):$/;"	kind:class	line:127
+VLCException	../pyparrot/utils/vlc.py	/^class VLCException(Exception):$/;"	kind:class	line:205
+VideoAdjustOption	../pyparrot/utils/vlc.py	/^class VideoAdjustOption(_Enum):$/;"	kind:class	line:899
+VideoCleanupCb	../pyparrot/utils/vlc.py	/^    VideoCleanupCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p)$/;"	kind:variable	line:1249
+VideoCleanupCb	../pyparrot/utils/vlc.py	/^class VideoCleanupCb(ctypes.c_void_p):$/;"	kind:class	line:1088
+VideoDisplayCb	../pyparrot/utils/vlc.py	/^    VideoDisplayCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p)$/;"	kind:variable	line:1229
+VideoDisplayCb	../pyparrot/utils/vlc.py	/^class VideoDisplayCb(ctypes.c_void_p):$/;"	kind:class	line:1066
+VideoFormatCb	../pyparrot/utils/vlc.py	/^    VideoFormatCb = ctypes.CFUNCTYPE(ctypes.POINTER(ctypes.c_uint), ctypes.POINTER(ctypes.c_void_p), ctypes.c_char_p, ctypes.POINTER(ctypes.c_uint), ctypes.POINTER(ctypes.c_uint), ctypes.POINTER(ctypes.c_uint), ctypes.POINTER(ctypes.c_uint))$/;"	kind:variable	line:1236
+VideoFormatCb	../pyparrot/utils/vlc.py	/^class VideoFormatCb(ctypes.c_void_p):$/;"	kind:class	line:1074
+VideoLockCb	../pyparrot/utils/vlc.py	/^    VideoLockCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.POINTER(ctypes.c_void_p))$/;"	kind:variable	line:1208
+VideoLockCb	../pyparrot/utils/vlc.py	/^class VideoLockCb(ctypes.c_void_p):$/;"	kind:class	line:1043
+VideoLogoOption	../pyparrot/utils/vlc.py	/^class VideoLogoOption(_Enum):$/;"	kind:class	line:877
+VideoMarqueeOption	../pyparrot/utils/vlc.py	/^class VideoMarqueeOption(_Enum):$/;"	kind:class	line:790
+VideoOrient	../pyparrot/utils/vlc.py	/^class VideoOrient(_Enum):$/;"	kind:class	line:693
+VideoProjection	../pyparrot/utils/vlc.py	/^class VideoProjection(_Enum):$/;"	kind:class	line:715
+VideoTrack	../pyparrot/utils/vlc.py	/^class VideoTrack(_Cstruct):$/;"	kind:class	line:1395
+VideoUnlockCb	../pyparrot/utils/vlc.py	/^    VideoUnlockCb = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p, ctypes.POINTER(ctypes.c_void_p))$/;"	kind:variable	line:1218
+VideoUnlockCb	../pyparrot/utils/vlc.py	/^class VideoUnlockCb(ctypes.c_void_p):$/;"	kind:class	line:1054
+VideoViewpoint	../pyparrot/utils/vlc.py	/^class VideoViewpoint(_Cstruct):$/;"	kind:class	line:1583
+VisionServer.py	../pyparrot/VisionServer.py	1;"	kind:file	line:1
+WifiConnection	../pyparrot/networking/wifiConnection.py	/^class WifiConnection:$/;"	kind:class	line:37
+_Cfunction	../pyparrot/utils/vlc.py	/^def _Cfunction(name, flags, errcheck, *types):$/;"	kind:function	line:260
+_Cfunctions	../pyparrot/utils/vlc.py	/^_Cfunctions = {}  # from LibVLC __version__$/;"	kind:variable	line:257
+_Cobject	../pyparrot/utils/vlc.py	/^def _Cobject(cls, ctype):$/;"	kind:function	line:278
+_Constructor	../pyparrot/utils/vlc.py	/^def _Constructor(cls, ptr=_internal_guard):$/;"	kind:function	line:285
+_Cstruct	../pyparrot/utils/vlc.py	/^class _Cstruct(ctypes.Structure):$/;"	kind:class	line:294
+_Ctype	../pyparrot/utils/vlc.py	/^class _Ctype(object):$/;"	kind:class	line:306
+_Enum	../pyparrot/utils/vlc.py	/^class _Enum(ctypes.c_uint):$/;"	kind:class	line:392
+_Globals	../pyparrot/utils/vlc.py	/^_Globals = globals()  # sys.modules[__name__].__dict__$/;"	kind:variable	line:258
+_Ints	../pyparrot/utils/vlc.py	/^    _Ints =  int$/;"	kind:variable	line:213
+_Ints	../pyparrot/utils/vlc.py	/^    _Ints = (int, long)$/;"	kind:variable	line:211
+_Seqs	../pyparrot/utils/vlc.py	/^_Seqs = (list, tuple)$/;"	kind:variable	line:214
+__call__	../pyparrot/utils/vlc.py	/^    def __call__(self, obj):$/;"	kind:member	line:228
+__del__	../pyparrot/DroneVisionGUI.py	/^    def __del__(self):$/;"	kind:member	line:139
+__del__	../pyparrot/DroneVisionGUI.py	/^    def __del__(self):$/;"	kind:member	line:166
+__eq__	../pyparrot/utils/vlc.py	/^    def __eq__(self, other):$/;"	kind:member	line:407
+__generator_version__	../pyparrot/utils/vlc.py	/^__generator_version__ = "1.2"$/;"	kind:variable	line:57
+__get__	../pyparrot/utils/vlc.py	/^    def __get__(self, obj, objtype):$/;"	kind:member	line:240
+__getitem__	../pyparrot/utils/vlc.py	/^    def __getitem__(self, i):$/;"	kind:member	line:2955
+__getitem__	../pyparrot/utils/vlc.py	/^    def __getitem__(self, i):$/;"	kind:member	line:3114
+__hash__	../pyparrot/utils/vlc.py	/^    def __hash__(self):$/;"	kind:member	line:401
+__init__	../pyparrot/Bebop.py	/^    def __init__(self):$/;"	kind:member	line:14
+__init__	../pyparrot/Bebop.py	/^    def __init__(self):$/;"	kind:member	line:59
+__init__	../pyparrot/DroneVision.py	/^    def __init__(self, drone_object, is_bebop, buffer_size=200):$/;"	kind:member	line:26
+__init__	../pyparrot/DroneVisionGUI.py	/^    def __init__(self, drone_object, is_bebop, user_code_to_run, user_args, buffer_size=200, network_caching=200):$/;"	kind:member	line:174
+__init__	../pyparrot/DroneVisionGUI.py	/^    def __init__(self, user_function, user_args, drone_vision):$/;"	kind:member	line:156
+__init__	../pyparrot/DroneVisionGUI.py	/^    def __init__(self, user_vision_function, user_args, drone_vision):$/;"	kind:member	line:129
+__init__	../pyparrot/DroneVisionGUI.py	/^    def __init__(self, vlc_player, drone_gui):$/;"	kind:member	line:59
+__init__	../pyparrot/Mambo.py	/^    def __init__(self):$/;"	kind:member	line:24
+__init__	../pyparrot/Mambo.py	/^    def __init__(self, address, use_wifi=False):$/;"	kind:member	line:207
+__init__	../pyparrot/commandsandsensors/DroneCommandParser.py	/^    def __init__(self):$/;"	kind:member	line:6
+__init__	../pyparrot/commandsandsensors/DroneSensorParser.py	/^    def __init__(self, drone_type):$/;"	kind:member	line:67
+__init__	../pyparrot/coursework/droneMapGUI.py	/^    def __init__(self):$/;"	kind:member	line:15
+__init__	../pyparrot/examples/demoBebopVision.py	/^    def __init__(self, vision):$/;"	kind:member	line:13
+__init__	../pyparrot/examples/demoBebopVisionGUI.py	/^    def __init__(self, vision):$/;"	kind:member	line:14
+__init__	../pyparrot/examples/demoMamboVision.py	/^    def __init__(self, vision):$/;"	kind:member	line:15
+__init__	../pyparrot/examples/demoMamboVisionGUI.py	/^    def __init__(self, vision):$/;"	kind:member	line:14
+__init__	../pyparrot/findMambo.py	/^    def __init__(self):$/;"	kind:member	line:17
+__init__	../pyparrot/networking/bleConnection.py	/^    def __init__(self, address, mambo):$/;"	kind:member	line:51
+__init__	../pyparrot/networking/bleConnection.py	/^    def __init__(self, handle_map, mambo, ble_connection):$/;"	kind:member	line:11
+__init__	../pyparrot/networking/wifiConnection.py	/^    def __init__(self, drone, drone_type="Bebop"):$/;"	kind:member	line:39
+__init__	../pyparrot/networking/wifiConnection.py	/^    def __init__(self, wifi_connection):$/;"	kind:member	line:23
+__init__	../pyparrot/utils/NonBlockingStreamReader.py	/^    def __init__(self, stream):$/;"	kind:member	line:19
+__init__	../pyparrot/utils/vlc.py	/^    def __init__(self):$/;"	kind:member	line:1346
+__init__	../pyparrot/utils/vlc.py	/^    def __init__(self, *unused):$/;"	kind:member	line:1461
+__init__	../pyparrot/utils/vlc.py	/^    def __init__(self, etype):$/;"	kind:member	line:320
+__init__	../pyparrot/utils/vlc.py	/^    def __init__(self, func):$/;"	kind:member	line:224
+__init__.py	../pyparrot/__init__.py	1;"	kind:file	line:1
+__init__.py	../pyparrot/commandsandsensors/__init__.py	1;"	kind:file	line:1
+__init__.py	../pyparrot/coursework/__init__.py	1;"	kind:file	line:1
+__init__.py	../pyparrot/examples/__init__.py	1;"	kind:file	line:1
+__init__.py	../pyparrot/networking/__init__.py	1;"	kind:file	line:1
+__init__.py	../pyparrot/utils/__init__.py	1;"	kind:file	line:1
+__iter__	../pyparrot/utils/vlc.py	/^    def __iter__(self):$/;"	kind:member	line:2363
+__iter__	../pyparrot/utils/vlc.py	/^    def __iter__(self):$/;"	kind:member	line:2958
+__iter__	../pyparrot/utils/vlc.py	/^    def __iter__(self):$/;"	kind:member	line:3117
+__len__	../pyparrot/utils/vlc.py	/^    def __len__(self):$/;"	kind:member	line:2943
+__libvlc_version__	../pyparrot/utils/vlc.py	/^__libvlc_version__ = "3.0.0"$/;"	kind:variable	line:56
+__ne__	../pyparrot/utils/vlc.py	/^    def __ne__(self, other):$/;"	kind:member	line:411
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, *args):$/;"	kind:member	line:1703
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, *args):$/;"	kind:member	line:2400
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, *args):$/;"	kind:member	line:2860
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, *args):$/;"	kind:member	line:3165
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, arg=None):$/;"	kind:member	line:3009
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, ptr=_internal_guard):$/;"	kind:member	line:1629
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, ptr=_internal_guard):$/;"	kind:member	line:2358
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, ptr=_internal_guard):$/;"	kind:member	line:2751
+__new__	../pyparrot/utils/vlc.py	/^    def __new__(cls, ptr=_internal_guard):$/;"	kind:member	line:2817
+__next__	../pyparrot/utils/vlc.py	/^    def __next__(self):$/;"	kind:member	line:2373
+__repr__	../pyparrot/utils/vlc.py	/^    def __repr__(self):$/;"	kind:member	line:235
+__repr__	../pyparrot/utils/vlc.py	/^    def __repr__(self):$/;"	kind:member	line:303
+__repr__	../pyparrot/utils/vlc.py	/^    def __repr__(self):$/;"	kind:member	line:404
+__setattr__	../pyparrot/utils/vlc.py	/^    def __setattr__(self, *unused):  #PYCHOK expected$/;"	kind:member	line:1463
+__str__	../pyparrot/Bebop.py	/^    def __str__(self):$/;"	kind:member	line:54
+__str__	../pyparrot/Mambo.py	/^    def __str__(self):$/;"	kind:member	line:185
+__str__	../pyparrot/utils/vlc.py	/^    def __str__(self):$/;"	kind:member	line:1327
+__str__	../pyparrot/utils/vlc.py	/^    def __str__(self):$/;"	kind:member	line:1350
+__str__	../pyparrot/utils/vlc.py	/^    def __str__(self):$/;"	kind:member	line:1440
+__str__	../pyparrot/utils/vlc.py	/^    def __str__(self):$/;"	kind:member	line:1476
+__str__	../pyparrot/utils/vlc.py	/^    def __str__(self):$/;"	kind:member	line:1534
+__str__	../pyparrot/utils/vlc.py	/^    def __str__(self):$/;"	kind:member	line:1560
+__str__	../pyparrot/utils/vlc.py	/^    def __str__(self):$/;"	kind:member	line:299
+__str__	../pyparrot/utils/vlc.py	/^    def __str__(self):$/;"	kind:member	line:397
+__version__	../pyparrot/utils/vlc.py	/^__version__ = "3.0.0102"$/;"	kind:variable	line:55
+_anonymous_	../pyparrot/utils/vlc.py	/^    _anonymous_ = ("u",)$/;"	kind:variable	line:1418
+_buffer_vision	../pyparrot/DroneVision.py	/^    def _buffer_vision(self, buffer_size):$/;"	kind:member	line:197
+_buffer_vision	../pyparrot/DroneVisionGUI.py	/^    def _buffer_vision(self):$/;"	kind:member	line:315
+_callback_handler	../pyparrot/utils/vlc.py	/^            def _callback_handler(event, k):$/;"	kind:function	line:1658
+_callback_handler	../pyparrot/utils/vlc.py	/^    _callback_handler = None$/;"	kind:variable	line:1626
+_callbacks	../pyparrot/utils/vlc.py	/^    _callbacks = {}$/;"	kind:variable	line:1627
+_connect	../pyparrot/networking/bleConnection.py	/^    def _connect(self):$/;"	kind:member	line:204
+_connect_listener_called	../pyparrot/networking/wifiConnection.py	/^    def _connect_listener_called(self, connection_info):$/;"	kind:member	line:360
+_create_udp_connection	../pyparrot/networking/wifiConnection.py	/^    def _create_udp_connection(self):$/;"	kind:member	line:344
+_default_instance	../pyparrot/utils/vlc.py	/^_default_instance = None$/;"	kind:variable	line:247
+_dot2int	../pyparrot/utils/vlc.py	/^def _dot2int(v):$/;"	kind:function	line:8236
+_ensure_fly_command_in_range	../pyparrot/Bebop.py	/^    def _ensure_fly_command_in_range(self, value):$/;"	kind:member	line:225
+_ensure_fly_command_in_range	../pyparrot/Mambo.py	/^    def _ensure_fly_command_in_range(self, value):$/;"	kind:member	line:464
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:418
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:433
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:451
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:463
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:597
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:660
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:682
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:696
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:718
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:731
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:750
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:769
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:783
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:793
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:819
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:837
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:864
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:880
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:902
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:920
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:944
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:964
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {$/;"	kind:variable	line:990
+_enum_names_	../pyparrot/utils/vlc.py	/^    _enum_names_ = {}$/;"	kind:variable	line:395
+_fields	../pyparrot/utils/vlc.py	/^        _fields = [$/;"	kind:variable	line:1595
+_fields	../pyparrot/utils/vlc.py	/^    _fields = [$/;"	kind:variable	line:1570
+_fields	../pyparrot/utils/vlc.py	/^    _fields = [$/;"	kind:variable	line:1577
+_fields	../pyparrot/utils/vlc.py	/^    _fields = [$/;"	kind:variable	line:1584
+_fields	../pyparrot/utils/vlc.py	/^    _fields = [$/;"	kind:variable	line:1602
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1337
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1354
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1360
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1379
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1390
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1396
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1406
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1411
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1419
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1434
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1467
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1503
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = [$/;"	kind:variable	line:1526
+_fields_	../pyparrot/utils/vlc.py	/^    _fields_ = []  # list of 2-tuples ('name', ctyptes.<type>)$/;"	kind:variable	line:297
+_get_byte_str_from_uuid	../pyparrot/networking/bleConnection.py	/^    def _get_byte_str_from_uuid(self, uuid, byte_start, byte_end):$/;"	kind:member	line:324
+_handshake	../pyparrot/networking/wifiConnection.py	/^    def _handshake(self, num_retries):$/;"	kind:member	line:279
+_internal_guard	../pyparrot/utils/vlc.py	/^_internal_guard = object()$/;"	kind:variable	line:110
+_is_command_received	../pyparrot/networking/wifiConnection.py	/^    def _is_command_received(self, channel, seq_id):$/;"	kind:member	line:269
+_listen_socket	../pyparrot/networking/wifiConnection.py	/^    def _listen_socket(self):$/;"	kind:member	line:161
+_parse_sensor_tuple	../pyparrot/commandsandsensors/DroneSensorParser.py	/^    def _parse_sensor_tuple(self, sensor_tuple):$/;"	kind:member	line:144
+_perform_handshake	../pyparrot/networking/bleConnection.py	/^    def _perform_handshake(self):$/;"	kind:member	line:298
+_populateQueue	../pyparrot/utils/NonBlockingStreamReader.py	/^    def _populateQueue(self, stream, queue):$/;"	kind:member	line:34
+_reconnect	../pyparrot/networking/bleConnection.py	/^    def _reconnect(self, num_retries):$/;"	kind:member	line:178
+_safe_ble_write	../pyparrot/networking/bleConnection.py	/^    def _safe_ble_write(self, characteristic, packet):$/;"	kind:member	line:529
+_send_pong	../pyparrot/networking/wifiConnection.py	/^    def _send_pong(self, data):$/;"	kind:member	line:240
+_set_command_received	../pyparrot/networking/bleConnection.py	/^    def _set_command_received(self, channel, val):$/;"	kind:member	line:519
+_set_command_received	../pyparrot/networking/wifiConnection.py	/^    def _set_command_received(self, channel, val, seq_id):$/;"	kind:member	line:259
+_start_video_buffering	../pyparrot/DroneVision.py	/^    def _start_video_buffering(self):$/;"	kind:member	line:164
+_start_video_buffering	../pyparrot/DroneVisionGUI.py	/^    def _start_video_buffering(self):$/;"	kind:member	line:282
+_user_callback	../pyparrot/DroneVision.py	/^    def _user_callback(self, user_vision_function, user_args):$/;"	kind:member	line:176
+about_menu	../pyparrot/coursework/droneMapGUI.py	/^    def about_menu(self):$/;"	kind:member	line:265
+ack_packet	../pyparrot/networking/bleConnection.py	/^    def ack_packet(self, buffer_id, packet_id):$/;"	kind:member	line:548
+ack_packet	../pyparrot/networking/wifiConnection.py	/^    def ack_packet(self, buffer_id, packet_id):$/;"	kind:member	line:655
+add_intf	../pyparrot/utils/vlc.py	/^    def add_intf(self, name):$/;"	kind:member	line:1841
+add_media	../pyparrot/utils/vlc.py	/^    def add_media(self, mrl):$/;"	kind:member	line:2874
+add_option	../pyparrot/utils/vlc.py	/^    def add_option(self, psz_options):$/;"	kind:member	line:2449
+add_option_flag	../pyparrot/utils/vlc.py	/^    def add_option_flag(self, psz_options, i_flags):$/;"	kind:member	line:2466
+add_options	../pyparrot/utils/vlc.py	/^    def add_options(self, *options):$/;"	kind:member	line:2414
+add_service	../pyparrot/networking/wifiConnection.py	/^    def add_service(self, zeroconf, type, name):$/;"	kind:member	line:30
+add_slave	../pyparrot/utils/vlc.py	/^    def add_slave(self, i_type, psz_uri, b_select):$/;"	kind:member	line:3821
+ask_for_state_update	../pyparrot/Bebop.py	/^    def ask_for_state_update(self):$/;"	kind:member	line:123
+ask_for_state_update	../pyparrot/Mambo.py	/^    def ask_for_state_update(self):$/;"	kind:member	line:454
+audio_filter_list_get	../pyparrot/utils/vlc.py	/^    def audio_filter_list_get(self):$/;"	kind:member	line:1813
+audio_get_channel	../pyparrot/utils/vlc.py	/^    def audio_get_channel(self):$/;"	kind:member	line:4272
+audio_get_delay	../pyparrot/utils/vlc.py	/^    def audio_get_delay(self):$/;"	kind:member	line:4287
+audio_get_mute	../pyparrot/utils/vlc.py	/^    def audio_get_mute(self):$/;"	kind:member	line:4221
+audio_get_track	../pyparrot/utils/vlc.py	/^    def audio_get_track(self):$/;"	kind:member	line:4257
+audio_get_track_count	../pyparrot/utils/vlc.py	/^    def audio_get_track_count(self):$/;"	kind:member	line:4250
+audio_get_track_description	../pyparrot/utils/vlc.py	/^    def audio_get_track_description(self):$/;"	kind:member	line:3222
+audio_get_volume	../pyparrot/utils/vlc.py	/^    def audio_get_volume(self):$/;"	kind:member	line:4235
+audio_output_device_count	../pyparrot/utils/vlc.py	/^    def audio_output_device_count(self, psz_audio_output):$/;"	kind:member	line:2258
+audio_output_device_enum	../pyparrot/utils/vlc.py	/^    def audio_output_device_enum(self):$/;"	kind:member	line:4154
+audio_output_device_get	../pyparrot/utils/vlc.py	/^    def audio_output_device_get(self):$/;"	kind:member	line:4197
+audio_output_device_id	../pyparrot/utils/vlc.py	/^    def audio_output_device_id(self, psz_audio_output, i_device):$/;"	kind:member	line:2274
+audio_output_device_list_get	../pyparrot/utils/vlc.py	/^    def audio_output_device_list_get(self, aout):$/;"	kind:member	line:2337
+audio_output_device_longname	../pyparrot/utils/vlc.py	/^    def audio_output_device_longname(self, psz_output, i_device):$/;"	kind:member	line:2266
+audio_output_device_set	../pyparrot/utils/vlc.py	/^    def audio_output_device_set(self, module, device_id):$/;"	kind:member	line:4169
+audio_output_enumerate_devices	../pyparrot/utils/vlc.py	/^    def audio_output_enumerate_devices(self):$/;"	kind:member	line:1794
+audio_output_list_get	../pyparrot/utils/vlc.py	/^    def audio_output_list_get(self):$/;"	kind:member	line:2330
+audio_output_set	../pyparrot/utils/vlc.py	/^    def audio_output_set(self, psz_name):$/;"	kind:member	line:4144
+audio_set_callbacks	../pyparrot/utils/vlc.py	/^    def audio_set_callbacks(self, play, pause, resume, flush, drain, opaque):$/;"	kind:member	line:3588
+audio_set_channel	../pyparrot/utils/vlc.py	/^    def audio_set_channel(self, channel):$/;"	kind:member	line:4279
+audio_set_delay	../pyparrot/utils/vlc.py	/^    def audio_set_delay(self, i_delay):$/;"	kind:member	line:4295
+audio_set_format	../pyparrot/utils/vlc.py	/^    def audio_set_format(self, format, rate, channels):$/;"	kind:member	line:3626
+audio_set_format_callbacks	../pyparrot/utils/vlc.py	/^    def audio_set_format_callbacks(self, setup, cleanup):$/;"	kind:member	line:3616
+audio_set_mute	../pyparrot/utils/vlc.py	/^    def audio_set_mute(self, status):$/;"	kind:member	line:4228
+audio_set_track	../pyparrot/utils/vlc.py	/^    def audio_set_track(self, i_track):$/;"	kind:member	line:4264
+audio_set_volume	../pyparrot/utils/vlc.py	/^    def audio_set_volume(self, i_volume):$/;"	kind:member	line:4242
+audio_set_volume_callback	../pyparrot/utils/vlc.py	/^    def audio_set_volume_callback(self, set_volume):$/;"	kind:member	line:3605
+audio_toggle_mute	../pyparrot/utils/vlc.py	/^    def audio_toggle_mute(self):$/;"	kind:member	line:4215
+basestring	../pyparrot/utils/vlc.py	/^    basestring = (str, bytes)$/;"	kind:variable	line:69
+basestring	../pyparrot/utils/vlc.py	/^    basestring = basestring$/;"	kind:variable	line:90
+batch_size	../train_nn.py	/^    batch_size=50,$/;"	kind:variable	line:57
+bebop	../pyparrot/examples/demoBebopDirectFlight.py	/^bebop = Bebop()$/;"	kind:variable	line:7
+bebop	../pyparrot/examples/demoBebopIndoors.py	/^bebop = Bebop()$/;"	kind:variable	line:9
+bebop	../pyparrot/examples/demoBebopTricks.py	/^bebop = Bebop()$/;"	kind:variable	line:3
+bebop	../pyparrot/examples/demoBebopVision.py	/^bebop = Bebop()$/;"	kind:variable	line:28
+bebop	../pyparrot/examples/demoBebopVisionGUI.py	/^    bebop = Bebop()$/;"	kind:variable	line:60
+bebopVision	../pyparrot/examples/demoBebopVision.py	/^    bebopVision = DroneVision(bebop, is_bebop=True)$/;"	kind:variable	line:35
+bebopVision	../pyparrot/examples/demoBebopVisionGUI.py	/^        bebopVision = DroneVisionGUI(bebop, is_bebop=True, user_code_to_run=demo_user_code_after_vision_opened,$/;"	kind:variable	line:67
+bleConnection.py	../pyparrot/networking/bleConnection.py	1;"	kind:file	line:1
+build_date	../pyparrot/utils/vlc.py	/^build_date  = "Mon Feb 19 18:13:20 2018 3.0.0"$/;"	kind:variable	line:58
+bytes	../pyparrot/utils/vlc.py	/^    bytes = bytes$/;"	kind:variable	line:68
+bytes	../pyparrot/utils/vlc.py	/^    bytes = str$/;"	kind:variable	line:89
+bytes_to_str	../pyparrot/utils/vlc.py	/^    def bytes_to_str(b):$/;"	kind:function	line:100
+bytes_to_str	../pyparrot/utils/vlc.py	/^    def bytes_to_str(b):$/;"	kind:function	line:79
+callbackmethod	../pyparrot/utils/vlc.py	/^def callbackmethod(callback):$/;"	kind:function	line:8210
+can_pause	../pyparrot/utils/vlc.py	/^    def can_pause(self):$/;"	kind:member	line:3783
+cb	../pyparrot/utils/vlc.py	/^cb = CallbackDecorators$/;"	kind:variable	line:1320
+change_obstacle_type_click	../pyparrot/coursework/droneMapGUI.py	/^    def change_obstacle_type_click(self, event):$/;"	kind:member	line:68
+class_result	../pyparrot/utils/vlc.py	/^def class_result(classname):$/;"	kind:function	line:343
+clear_obstacle	../pyparrot/coursework/droneMapGUI.py	/^    def clear_obstacle(self, map_x, map_y):$/;"	kind:member	line:126
+close_claw	../pyparrot/Mambo.py	/^    def close_claw(self):$/;"	kind:member	line:521
+close_exit	../pyparrot/DroneVisionGUI.py	/^    def close_exit(self):$/;"	kind:member	line:351
+close_video	../pyparrot/DroneVision.py	/^    def close_video(self):$/;"	kind:member	line:262
+close_video	../pyparrot/DroneVisionGUI.py	/^    def close_video(self):$/;"	kind:member	line:382
+colorPrint.py	../pyparrot/utils/colorPrint.py	1;"	kind:file	line:1
+color_print	../pyparrot/utils/colorPrint.py	/^def color_print(print_str, type="NONE"):$/;"	kind:function	line:5
+connect	../pyparrot/Bebop.py	/^    def connect(self, num_retries):$/;"	kind:member	line:96
+connect	../pyparrot/Mambo.py	/^    def connect(self, num_retries):$/;"	kind:member	line:273
+connect	../pyparrot/networking/bleConnection.py	/^    def connect(self, num_retries):$/;"	kind:member	line:155
+connect	../pyparrot/networking/wifiConnection.py	/^    def connect(self, num_retries):$/;"	kind:member	line:121
+count	../pyparrot/utils/vlc.py	/^    def count(self):$/;"	kind:member	line:2936
+createUI	../pyparrot/DroneVisionGUI.py	/^    def createUI(self):$/;"	kind:member	line:76
+create_room	../pyparrot/coursework/droneMapGUI.py	/^    def create_room(self):$/;"	kind:member	line:140
+data_augmentation	../train_nn.py	/^    data_augmentation=img_aug$/;"	kind:variable	line:33
+data_preprocessing	../train_nn.py	/^    data_preprocessing=img_prep,$/;"	kind:variable	line:32
+data_preprocessing.py	../data_preprocessing.py	1;"	kind:file	line:1
+debug_callback	../pyparrot/utils/vlc.py	/^def debug_callback(event, *args, **kwds):$/;"	kind:function	line:8267
+demoBebopDirectFlight.py	../pyparrot/examples/demoBebopDirectFlight.py	1;"	kind:file	line:1
+demoBebopIndoors.py	../pyparrot/examples/demoBebopIndoors.py	1;"	kind:file	line:1
+demoBebopTricks.py	../pyparrot/examples/demoBebopTricks.py	1;"	kind:file	line:1
+demoBebopVision.py	../pyparrot/examples/demoBebopVision.py	1;"	kind:file	line:1
+demoBebopVisionGUI.py	../pyparrot/examples/demoBebopVisionGUI.py	1;"	kind:file	line:1
+demoMamboClaw.py	../pyparrot/examples/demoMamboClaw.py	1;"	kind:file	line:1
+demoMamboDirectFlight.py	../pyparrot/examples/demoMamboDirectFlight.py	1;"	kind:file	line:1
+demoMamboGun.py	../pyparrot/examples/demoMamboGun.py	1;"	kind:file	line:1
+demoMamboTricks.py	../pyparrot/examples/demoMamboTricks.py	1;"	kind:file	line:1
+demoMamboVision.py	../pyparrot/examples/demoMamboVision.py	1;"	kind:file	line:1
+demoMamboVisionGUI.py	../pyparrot/examples/demoMamboVisionGUI.py	1;"	kind:file	line:1
+demo_mambo_user_vision_function	../pyparrot/examples/demoMamboVisionGUI.py	/^def demo_mambo_user_vision_function(mamboVision, args):$/;"	kind:function	line:31
+demo_user_code_after_vision_opened	../pyparrot/examples/demoBebopVisionGUI.py	/^def demo_user_code_after_vision_opened(bebopVision, args):$/;"	kind:function	line:28
+devices	../pyparrot/findMambo.py	/^devices = scanner.scan(10.0)$/;"	kind:variable	line:27
+disconnect	../pyparrot/Bebop.py	/^    def disconnect(self):$/;"	kind:member	line:114
+disconnect	../pyparrot/Mambo.py	/^    def disconnect(self):$/;"	kind:member	line:291
+disconnect	../pyparrot/networking/bleConnection.py	/^    def disconnect(self):$/;"	kind:member	line:315
+disconnect	../pyparrot/networking/wifiConnection.py	/^    def disconnect(self):$/;"	kind:member	line:371
+do_GET	../pyparrot/VisionServer.py	/^    def do_GET(self):$/;"	kind:member	line:53
+draw_goal_click	../pyparrot/coursework/droneMapGUI.py	/^    def draw_goal_click(self, event):$/;"	kind:member	line:84
+draw_initial_gui	../pyparrot/coursework/droneMapGUI.py	/^    def draw_initial_gui(self):$/;"	kind:member	line:268
+draw_map_from_file	../pyparrot/coursework/droneMapGUI.py	/^    def draw_map_from_file(self):$/;"	kind:member	line:226
+draw_obstacle	../pyparrot/coursework/droneMapGUI.py	/^    def draw_obstacle(self, x, y, size, color, map_x, map_y):$/;"	kind:member	line:120
+draw_room	../pyparrot/coursework/droneMapGUI.py	/^    def draw_room(self, length, height):$/;"	kind:member	line:164
+draw_start_click	../pyparrot/coursework/droneMapGUI.py	/^    def draw_start_click(self, event):$/;"	kind:member	line:102
+droneMapGUI.py	../pyparrot/coursework/droneMapGUI.py	1;"	kind:file	line:1
+duplicate	../pyparrot/utils/vlc.py	/^    def duplicate(self):$/;"	kind:member	line:2507
+echo_position	../pyparrot/utils/vlc.py	/^    echo_position = False$/;"	kind:variable	line:8300
+emergency	../pyparrot/Mambo.py	/^    def emergency(self):$/;"	kind:member	line:593
+emergency_land	../pyparrot/Bebop.py	/^    def emergency_land(self):$/;"	kind:member	line:177
+end_callback	../pyparrot/utils/vlc.py	/^    def end_callback(event):$/;"	kind:function	line:8296
+event_attach	../pyparrot/utils/vlc.py	/^    def event_attach(self, eventtype, callback, *args, **kwds):$/;"	kind:member	line:1634
+event_detach	../pyparrot/utils/vlc.py	/^    def event_detach(self, eventtype):$/;"	kind:member	line:1680
+event_manager	../pyparrot/utils/vlc.py	/^    def event_manager(self):$/;"	kind:member	line:2568
+event_manager	../pyparrot/utils/vlc.py	/^    def event_manager(self):$/;"	kind:member	line:2805
+event_manager	../pyparrot/utils/vlc.py	/^    def event_manager(self):$/;"	kind:member	line:2993
+event_manager	../pyparrot/utils/vlc.py	/^    def event_manager(self):$/;"	kind:member	line:3045
+event_manager	../pyparrot/utils/vlc.py	/^    def event_manager(self):$/;"	kind:member	line:3383
+extract_sensor_values	../pyparrot/commandsandsensors/DroneSensorParser.py	/^    def extract_sensor_values(self, data):$/;"	kind:member	line:83
+findMambo.py	../pyparrot/findMambo.py	1;"	kind:file	line:1
+find_lib	../pyparrot/utils/vlc.py	/^def find_lib():$/;"	kind:function	line:112
+finish_reader	../pyparrot/utils/NonBlockingStreamReader.py	/^    def finish_reader(self):$/;"	kind:member	line:54
+fire_gun	../pyparrot/Mambo.py	/^    def fire_gun(self):$/;"	kind:member	line:539
+flip	../pyparrot/Bebop.py	/^    def flip(self, direction):$/;"	kind:member	line:265
+flip	../pyparrot/Mambo.py	/^    def flip(self, direction):$/;"	kind:member	line:394
+fly_direct	../pyparrot/Bebop.py	/^    def fly_direct(self, roll, pitch, yaw, vertical_movement, duration):$/;"	kind:member	line:239
+fly_direct	../pyparrot/Mambo.py	/^    def fly_direct(self, roll, pitch, yaw, vertical_movement, duration):$/;"	kind:member	line:478
+frame_backward	../pyparrot/utils/vlc.py	/^        def frame_backward():$/;"	kind:function	line:8397
+frame_forward	../pyparrot/utils/vlc.py	/^        def frame_forward():$/;"	kind:function	line:8393
+free	../pyparrot/utils/vlc.py	/^    def free(self):$/;"	kind:member	line:2378
+from_param	../pyparrot/utils/vlc.py	/^    def from_param(self, param):$/;"	kind:member	line:323
+from_param	../pyparrot/utils/vlc.py	/^    def from_param(this):  # not self$/;"	kind:member	line:310
+get_agl	../pyparrot/utils/vlc.py	/^    def get_agl(self):$/;"	kind:member	line:3329
+get_chapter	../pyparrot/utils/vlc.py	/^    def get_chapter(self):$/;"	kind:member	line:3683
+get_chapter_count	../pyparrot/utils/vlc.py	/^    def get_chapter_count(self):$/;"	kind:member	line:3690
+get_chapter_count_for_title	../pyparrot/utils/vlc.py	/^    def get_chapter_count_for_title(self, i_title):$/;"	kind:member	line:3704
+get_command_tuple	../pyparrot/commandsandsensors/DroneCommandParser.py	/^    def get_command_tuple(self, project, myclass, cmd):$/;"	kind:member	line:22
+get_command_tuple_with_enum	../pyparrot/commandsandsensors/DroneCommandParser.py	/^    def get_command_tuple_with_enum(self, project, myclass, cmd, enum_name):$/;"	kind:member	line:62
+get_data_format_and_size	../pyparrot/commandsandsensors/DroneSensorParser.py	/^def get_data_format_and_size(data, data_type):$/;"	kind:function	line:11
+get_default_instance	../pyparrot/utils/vlc.py	/^def get_default_instance():$/;"	kind:function	line:249
+get_duration	../pyparrot/utils/vlc.py	/^    def get_duration(self):$/;"	kind:member	line:2576
+get_estimated_z_orientation	../pyparrot/Mambo.py	/^    def get_estimated_z_orientation(self):$/;"	kind:member	line:139
+get_fps	../pyparrot/utils/vlc.py	/^    def get_fps(self):$/;"	kind:member	line:3312
+get_full_chapter_descriptions	../pyparrot/utils/vlc.py	/^    def get_full_chapter_descriptions(self, i_chapters_of_title):$/;"	kind:member	line:3237
+get_full_title_descriptions	../pyparrot/utils/vlc.py	/^    def get_full_title_descriptions(self):$/;"	kind:member	line:3227
+get_fullscreen	../pyparrot/utils/vlc.py	/^    def get_fullscreen(self):$/;"	kind:member	line:3855
+get_hwnd	../pyparrot/utils/vlc.py	/^    def get_hwnd(self):$/;"	kind:member	line:3562
+get_instance	../pyparrot/utils/vlc.py	/^    def get_instance(self):$/;"	kind:member	line:2411
+get_instance	../pyparrot/utils/vlc.py	/^    def get_instance(self):$/;"	kind:member	line:2871
+get_instance	../pyparrot/utils/vlc.py	/^    def get_instance(self):$/;"	kind:member	line:3021
+get_instance	../pyparrot/utils/vlc.py	/^    def get_instance(self):$/;"	kind:member	line:3180
+get_latest_valid_picture	../pyparrot/DroneVision.py	/^    def get_latest_valid_picture(self):$/;"	kind:member	line:254
+get_latest_valid_picture	../pyparrot/DroneVisionGUI.py	/^    def get_latest_valid_picture(self):$/;"	kind:member	line:343
+get_length	../pyparrot/utils/vlc.py	/^    def get_length(self):$/;"	kind:member	line:3638
+get_log_verbosity	../pyparrot/utils/vlc.py	/^    def get_log_verbosity(self):$/;"	kind:member	line:2295
+get_media	../pyparrot/utils/vlc.py	/^    def get_media(self):$/;"	kind:member	line:3376
+get_media_player	../pyparrot/utils/vlc.py	/^    def get_media_player(self):$/;"	kind:member	line:3059
+get_meta	../pyparrot/utils/vlc.py	/^    def get_meta(self, e_meta):$/;"	kind:member	line:2513
+get_mrl	../pyparrot/utils/vlc.py	/^    def get_mrl(self):$/;"	kind:member	line:2500
+get_nsobject	../pyparrot/utils/vlc.py	/^    def get_nsobject(self):$/;"	kind:member	line:3522
+get_parsed_status	../pyparrot/utils/vlc.py	/^    def get_parsed_status(self):$/;"	kind:member	line:2617
+get_position	../pyparrot/utils/vlc.py	/^    def get_position(self):$/;"	kind:member	line:3660
+get_rate	../pyparrot/utils/vlc.py	/^    def get_rate(self):$/;"	kind:member	line:3745
+get_role	../pyparrot/utils/vlc.py	/^    def get_role(self):$/;"	kind:member	line:4327
+get_state	../pyparrot/utils/vlc.py	/^    def get_state(self):$/;"	kind:member	line:2541
+get_state	../pyparrot/utils/vlc.py	/^    def get_state(self):$/;"	kind:member	line:3100
+get_state	../pyparrot/utils/vlc.py	/^    def get_state(self):$/;"	kind:member	line:3762
+get_stats	../pyparrot/utils/vlc.py	/^    def get_stats(self, p_stats):$/;"	kind:member	line:2551
+get_time	../pyparrot/utils/vlc.py	/^    def get_time(self):$/;"	kind:member	line:3645
+get_title	../pyparrot/utils/vlc.py	/^    def get_title(self):$/;"	kind:member	line:3719
+get_title_count	../pyparrot/utils/vlc.py	/^    def get_title_count(self):$/;"	kind:member	line:3726
+get_tracks_info	../pyparrot/utils/vlc.py	/^    def get_tracks_info(self):$/;"	kind:member	line:2729
+get_type	../pyparrot/utils/vlc.py	/^    def get_type(self):$/;"	kind:member	line:2644
+get_user_data	../pyparrot/utils/vlc.py	/^    def get_user_data(self):$/;"	kind:member	line:2636
+get_xwindow	../pyparrot/utils/vlc.py	/^    def get_xwindow(self):$/;"	kind:member	line:3552
+getch	../pyparrot/utils/vlc.py	/^        def getch():  # getchar(), getc(stdin)  #PYCHOK flake$/;"	kind:function	line:8286
+go	../pyparrot/coursework/droneMapGUI.py	/^    def go(self):$/;"	kind:member	line:309
+gui	../pyparrot/coursework/droneMapGUI.py	/^    gui = DroneGUI()$/;"	kind:variable	line:320
+handleDiscovery	../pyparrot/findMambo.py	/^    def handleDiscovery(self, dev, isNewDev, isNewData):$/;"	kind:member	line:20
+handleNotification	../pyparrot/networking/bleConnection.py	/^    def handleNotification(self, cHandle, data):$/;"	kind:member	line:18
+handle_data	../pyparrot/networking/wifiConnection.py	/^    def handle_data(self, data):$/;"	kind:member	line:187
+handle_frame	../pyparrot/networking/wifiConnection.py	/^    def handle_frame(self, packet_type, buffer_id, packet_seq_id, recv_data):$/;"	kind:member	line:216
+has_next	../pyparrot/utils/vlc.py	/^    def has_next(self):$/;"	kind:member	line:2384
+has_vout	../pyparrot/utils/vlc.py	/^    def has_vout(self):$/;"	kind:member	line:3769
+hex_version	../pyparrot/utils/vlc.py	/^def hex_version():$/;"	kind:function	line:8251
+hover	../pyparrot/Mambo.py	/^    def hover(self):$/;"	kind:member	line:382
+im	../data_preprocessing.py	/^    im = Image.open(original_img_dir + '\/' + f)$/;"	kind:variable	line:15
+im	../data_preprocessing.py	/^    im = im.resize(new_size, Image.ANTIALIAS)$/;"	kind:variable	line:16
+img_aug	../train_nn.py	/^img_aug = ImageAugmentation()$/;"	kind:variable	line:26
+img_prep	../train_nn.py	/^img_prep = ImagePreprocessing()$/;"	kind:variable	line:22
+index_of_item	../pyparrot/utils/vlc.py	/^    def index_of_item(self, p_md):$/;"	kind:member	line:2963
+insert_media	../pyparrot/utils/vlc.py	/^    def insert_media(self, p_md, i_pos):$/;"	kind:member	line:2917
+isAlive	../pyparrot/examples/demoBebopVision.py	/^isAlive = False$/;"	kind:variable	line:10
+isAlive	../pyparrot/examples/demoBebopVisionGUI.py	/^isAlive = False$/;"	kind:variable	line:11
+is_landed	../pyparrot/Bebop.py	/^    def is_landed(self):$/;"	kind:member	line:188
+is_landed	../pyparrot/Mambo.py	/^    def is_landed(self):$/;"	kind:member	line:344
+is_parsed	../pyparrot/utils/vlc.py	/^    def is_parsed(self):$/;"	kind:member	line:2719
+is_playing	../pyparrot/utils/vlc.py	/^    def is_playing(self):$/;"	kind:member	line:3093
+is_playing	../pyparrot/utils/vlc.py	/^    def is_playing(self):$/;"	kind:member	line:3390
+is_readonly	../pyparrot/utils/vlc.py	/^    def is_readonly(self):$/;"	kind:member	line:2973
+is_running	../pyparrot/utils/vlc.py	/^    def is_running(self):$/;"	kind:member	line:2789
+is_seekable	../pyparrot/utils/vlc.py	/^    def is_seekable(self):$/;"	kind:member	line:3776
+item_at_index	../pyparrot/utils/vlc.py	/^    def item_at_index(self, i_pos):$/;"	kind:member	line:2947
+land	../pyparrot/Bebop.py	/^    def land(self):$/;"	kind:member	line:167
+land	../pyparrot/DroneVisionGUI.py	/^    def land(self):$/;"	kind:member	line:367
+land	../pyparrot/Mambo.py	/^    def land(self):$/;"	kind:member	line:334
+land_close_exit	../pyparrot/DroneVisionGUI.py	/^    def land_close_exit(self):$/;"	kind:member	line:359
+learning_rate	../train_nn.py	/^    learning_rate=1e-3$/;"	kind:variable	line:47
+libvlc_add_intf	../pyparrot/utils/vlc.py	/^def libvlc_add_intf(p_instance, name):$/;"	kind:function	line:4429
+libvlc_audio_equalizer_get_amp_at_index	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_get_amp_at_index(p_equalizer, u_band):$/;"	kind:function	line:7900
+libvlc_audio_equalizer_get_band_count	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_get_band_count():$/;"	kind:function	line:7792
+libvlc_audio_equalizer_get_band_frequency	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_get_band_frequency(u_index):$/;"	kind:function	line:7802
+libvlc_audio_equalizer_get_preamp	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_get_preamp(p_equalizer):$/;"	kind:function	line:7873
+libvlc_audio_equalizer_get_preset_count	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_get_preset_count():$/;"	kind:function	line:7769
+libvlc_audio_equalizer_get_preset_name	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_get_preset_name(u_index):$/;"	kind:function	line:7779
+libvlc_audio_equalizer_new	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_new():$/;"	kind:function	line:7815
+libvlc_audio_equalizer_new_from_preset	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_new_from_preset(u_index):$/;"	kind:function	line:7829
+libvlc_audio_equalizer_release	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_release(p_equalizer):$/;"	kind:function	line:7845
+libvlc_audio_equalizer_set_amp_at_index	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_set_amp_at_index(p_equalizer, f_amp, u_band):$/;"	kind:function	line:7884
+libvlc_audio_equalizer_set_preamp	../pyparrot/utils/vlc.py	/^def libvlc_audio_equalizer_set_preamp(p_equalizer, f_preamp):$/;"	kind:function	line:7858
+libvlc_audio_filter_list_get	../pyparrot/utils/vlc.py	/^def libvlc_audio_filter_list_get(p_instance):$/;"	kind:function	line:4629
+libvlc_audio_get_channel	../pyparrot/utils/vlc.py	/^def libvlc_audio_get_channel(p_mi):$/;"	kind:function	line:7725
+libvlc_audio_get_delay	../pyparrot/utils/vlc.py	/^def libvlc_audio_get_delay(p_mi):$/;"	kind:function	line:7746
+libvlc_audio_get_mute	../pyparrot/utils/vlc.py	/^def libvlc_audio_get_mute(p_mi):$/;"	kind:function	line:7643
+libvlc_audio_get_track	../pyparrot/utils/vlc.py	/^def libvlc_audio_get_track(p_mi):$/;"	kind:function	line:7704
+libvlc_audio_get_track_count	../pyparrot/utils/vlc.py	/^def libvlc_audio_get_track_count(p_mi):$/;"	kind:function	line:7684
+libvlc_audio_get_track_description	../pyparrot/utils/vlc.py	/^def libvlc_audio_get_track_description(p_mi):$/;"	kind:function	line:7694
+libvlc_audio_get_volume	../pyparrot/utils/vlc.py	/^def libvlc_audio_get_volume(p_mi):$/;"	kind:function	line:7663
+libvlc_audio_output_device_count	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_device_count(p_instance, psz_audio_output):$/;"	kind:function	line:6044
+libvlc_audio_output_device_enum	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_device_enum(mp):$/;"	kind:function	line:7534
+libvlc_audio_output_device_get	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_device_get(mp):$/;"	kind:function	line:7613
+libvlc_audio_output_device_id	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_device_id(p_instance, psz_audio_output, i_device):$/;"	kind:function	line:6064
+libvlc_audio_output_device_list_get	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_device_list_get(p_instance, aout):$/;"	kind:function	line:7552
+libvlc_audio_output_device_list_release	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_device_list_release(p_list):$/;"	kind:function	line:7572
+libvlc_audio_output_device_longname	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_device_longname(p_instance, psz_output, i_device):$/;"	kind:function	line:6054
+libvlc_audio_output_device_set	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_device_set(mp, module, device_id):$/;"	kind:function	line:7582
+libvlc_audio_output_list_get	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_list_get(p_instance):$/;"	kind:function	line:7502
+libvlc_audio_output_list_release	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_list_release(p_list):$/;"	kind:function	line:7512
+libvlc_audio_output_set	../pyparrot/utils/vlc.py	/^def libvlc_audio_output_set(p_mi, psz_name):$/;"	kind:function	line:7521
+libvlc_audio_set_callbacks	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_callbacks(mp, play, pause, resume, flush, drain, opaque):$/;"	kind:function	line:6633
+libvlc_audio_set_channel	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_channel(p_mi, channel):$/;"	kind:function	line:7735
+libvlc_audio_set_delay	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_delay(p_mi, i_delay):$/;"	kind:function	line:7757
+libvlc_audio_set_format	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_format(mp, format, rate, channels):$/;"	kind:function	line:6680
+libvlc_audio_set_format_callbacks	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_format_callbacks(mp, setup, cleanup):$/;"	kind:function	line:6667
+libvlc_audio_set_mute	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_mute(p_mi, status):$/;"	kind:function	line:7653
+libvlc_audio_set_track	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_track(p_mi, i_track):$/;"	kind:function	line:7714
+libvlc_audio_set_volume	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_volume(p_mi, i_volume):$/;"	kind:function	line:7673
+libvlc_audio_set_volume_callback	../pyparrot/utils/vlc.py	/^def libvlc_audio_set_volume_callback(mp, set_volume):$/;"	kind:function	line:6653
+libvlc_audio_toggle_mute	../pyparrot/utils/vlc.py	/^def libvlc_audio_toggle_mute(p_mi):$/;"	kind:function	line:7634
+libvlc_chapter_descriptions_release	../pyparrot/utils/vlc.py	/^def libvlc_chapter_descriptions_release(p_chapters, i_count):$/;"	kind:function	line:7251
+libvlc_clearerr	../pyparrot/utils/vlc.py	/^def libvlc_clearerr():$/;"	kind:function	line:4345
+libvlc_clock	../pyparrot/utils/vlc.py	/^def libvlc_clock():$/;"	kind:function	line:4649
+libvlc_dialog_dismiss	../pyparrot/utils/vlc.py	/^def libvlc_dialog_dismiss(p_id):$/;"	kind:function	line:4808
+libvlc_dialog_get_context	../pyparrot/utils/vlc.py	/^def libvlc_dialog_get_context(p_id):$/;"	kind:function	line:4769
+libvlc_dialog_post_action	../pyparrot/utils/vlc.py	/^def libvlc_dialog_post_action(p_id, i_action):$/;"	kind:function	line:4794
+libvlc_dialog_post_login	../pyparrot/utils/vlc.py	/^def libvlc_dialog_post_login(p_id, psz_username, psz_password, b_store):$/;"	kind:function	line:4778
+libvlc_dialog_set_context	../pyparrot/utils/vlc.py	/^def libvlc_dialog_set_context(p_id, p_context):$/;"	kind:function	line:4760
+libvlc_event_attach	../pyparrot/utils/vlc.py	/^def libvlc_event_attach(p_event_manager, i_event_type, f_callback, user_data):$/;"	kind:function	line:4508
+libvlc_event_detach	../pyparrot/utils/vlc.py	/^def libvlc_event_detach(p_event_manager, i_event_type, f_callback, p_user_data):$/;"	kind:function	line:4521
+libvlc_event_type_name	../pyparrot/utils/vlc.py	/^def libvlc_event_type_name(event_type):$/;"	kind:function	line:4533
+libvlc_free	../pyparrot/utils/vlc.py	/^        def libvlc_free(p):$/;"	kind:function	line:8228
+libvlc_free	../pyparrot/utils/vlc.py	/^def libvlc_free(ptr):$/;"	kind:function	line:4497
+libvlc_get_changeset	../pyparrot/utils/vlc.py	/^def libvlc_get_changeset():$/;"	kind:function	line:4487
+libvlc_get_compiler	../pyparrot/utils/vlc.py	/^def libvlc_get_compiler():$/;"	kind:function	line:4477
+libvlc_get_fullscreen	../pyparrot/utils/vlc.py	/^def libvlc_get_fullscreen(p_mi):$/;"	kind:function	line:7005
+libvlc_get_log_verbosity	../pyparrot/utils/vlc.py	/^def libvlc_get_log_verbosity(p_instance):$/;"	kind:function	line:6181
+libvlc_get_version	../pyparrot/utils/vlc.py	/^def libvlc_get_version():$/;"	kind:function	line:4467
+libvlc_hex_version	../pyparrot/utils/vlc.py	/^def libvlc_hex_version():$/;"	kind:function	line:8259
+libvlc_log_clear	../pyparrot/utils/vlc.py	/^def libvlc_log_clear(p_log):$/;"	kind:function	line:6234
+libvlc_log_close	../pyparrot/utils/vlc.py	/^def libvlc_log_close(p_log):$/;"	kind:function	line:6214
+libvlc_log_count	../pyparrot/utils/vlc.py	/^def libvlc_log_count(p_log):$/;"	kind:function	line:6223
+libvlc_log_get_context	../pyparrot/utils/vlc.py	/^def libvlc_log_get_context(ctx):$/;"	kind:function	line:4542
+libvlc_log_get_iterator	../pyparrot/utils/vlc.py	/^def libvlc_log_get_iterator(p_log):$/;"	kind:function	line:6244
+libvlc_log_get_object	../pyparrot/utils/vlc.py	/^def libvlc_log_get_object(ctx, id):$/;"	kind:function	line:4559
+libvlc_log_iterator_free	../pyparrot/utils/vlc.py	/^def libvlc_log_iterator_free(p_iter):$/;"	kind:function	line:6255
+libvlc_log_iterator_has_next	../pyparrot/utils/vlc.py	/^def libvlc_log_iterator_has_next(p_iter):$/;"	kind:function	line:6264
+libvlc_log_iterator_next	../pyparrot/utils/vlc.py	/^def libvlc_log_iterator_next(p_iter, p_buf):$/;"	kind:function	line:6275
+libvlc_log_open	../pyparrot/utils/vlc.py	/^def libvlc_log_open(p_instance):$/;"	kind:function	line:6203
+libvlc_log_set	../pyparrot/utils/vlc.py	/^def libvlc_log_set(p_instance, cb, data):$/;"	kind:function	line:4595
+libvlc_log_set_file	../pyparrot/utils/vlc.py	/^def libvlc_log_set_file(p_instance, stream):$/;"	kind:function	line:4609
+libvlc_log_unset	../pyparrot/utils/vlc.py	/^def libvlc_log_unset(p_instance):$/;"	kind:function	line:4580
+libvlc_media_add_option	../pyparrot/utils/vlc.py	/^def libvlc_media_add_option(p_md, psz_options):$/;"	kind:function	line:5259
+libvlc_media_add_option_flag	../pyparrot/utils/vlc.py	/^def libvlc_media_add_option_flag(p_md, psz_options, i_flags):$/;"	kind:function	line:5279
+libvlc_media_discoverer_event_manager	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_event_manager(p_mdis):$/;"	kind:function	line:6159
+libvlc_media_discoverer_is_running	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_is_running(p_mdis):$/;"	kind:function	line:4726
+libvlc_media_discoverer_list_get	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_list_get(p_inst, i_cat, ppp_services):$/;"	kind:function	line:4736
+libvlc_media_discoverer_list_release	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_list_release(pp_services, i_count):$/;"	kind:function	line:4749
+libvlc_media_discoverer_localized_name	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_localized_name(p_mdis):$/;"	kind:function	line:6147
+libvlc_media_discoverer_media_list	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_media_list(p_mdis):$/;"	kind:function	line:4716
+libvlc_media_discoverer_new	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_new(p_inst, psz_name):$/;"	kind:function	line:4662
+libvlc_media_discoverer_new_from_name	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_new_from_name(p_inst, psz_name):$/;"	kind:function	line:6139
+libvlc_media_discoverer_release	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_release(p_mdis):$/;"	kind:function	line:4706
+libvlc_media_discoverer_start	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_start(p_mdis):$/;"	kind:function	line:4681
+libvlc_media_discoverer_stop	../pyparrot/utils/vlc.py	/^def libvlc_media_discoverer_stop(p_mdis):$/;"	kind:function	line:4695
+libvlc_media_duplicate	../pyparrot/utils/vlc.py	/^def libvlc_media_duplicate(p_md):$/;"	kind:function	line:5332
+libvlc_media_event_manager	../pyparrot/utils/vlc.py	/^def libvlc_media_event_manager(p_md):$/;"	kind:function	line:5414
+libvlc_media_get_codec_description	../pyparrot/utils/vlc.py	/^def libvlc_media_get_codec_description(i_type, i_codec):$/;"	kind:function	line:5526
+libvlc_media_get_duration	../pyparrot/utils/vlc.py	/^def libvlc_media_get_duration(p_md):$/;"	kind:function	line:5425
+libvlc_media_get_meta	../pyparrot/utils/vlc.py	/^def libvlc_media_get_meta(p_md, e_meta):$/;"	kind:function	line:5341
+libvlc_media_get_mrl	../pyparrot/utils/vlc.py	/^def libvlc_media_get_mrl(p_md):$/;"	kind:function	line:5322
+libvlc_media_get_parsed_status	../pyparrot/utils/vlc.py	/^def libvlc_media_get_parsed_status(p_md):$/;"	kind:function	line:5475
+libvlc_media_get_state	../pyparrot/utils/vlc.py	/^def libvlc_media_get_state(p_md):$/;"	kind:function	line:5378
+libvlc_media_get_stats	../pyparrot/utils/vlc.py	/^def libvlc_media_get_stats(p_md, p_stats):$/;"	kind:function	line:5391
+libvlc_media_get_tracks_info	../pyparrot/utils/vlc.py	/^def libvlc_media_get_tracks_info(p_md):$/;"	kind:function	line:6124
+libvlc_media_get_type	../pyparrot/utils/vlc.py	/^def libvlc_media_get_type(p_md):$/;"	kind:function	line:5549
+libvlc_media_get_user_data	../pyparrot/utils/vlc.py	/^def libvlc_media_get_user_data(p_md):$/;"	kind:function	line:5500
+libvlc_media_is_parsed	../pyparrot/utils/vlc.py	/^def libvlc_media_is_parsed(p_md):$/;"	kind:function	line:6111
+libvlc_media_library_load	../pyparrot/utils/vlc.py	/^def libvlc_media_library_load(p_mlib):$/;"	kind:function	line:4853
+libvlc_media_library_media_list	../pyparrot/utils/vlc.py	/^def libvlc_media_library_media_list(p_mlib):$/;"	kind:function	line:4863
+libvlc_media_library_new	../pyparrot/utils/vlc.py	/^def libvlc_media_library_new(p_instance):$/;"	kind:function	line:4821
+libvlc_media_library_release	../pyparrot/utils/vlc.py	/^def libvlc_media_library_release(p_mlib):$/;"	kind:function	line:4831
+libvlc_media_library_retain	../pyparrot/utils/vlc.py	/^def libvlc_media_library_retain(p_mlib):$/;"	kind:function	line:4842
+libvlc_media_list_add_media	../pyparrot/utils/vlc.py	/^def libvlc_media_list_add_media(p_ml, p_md):$/;"	kind:function	line:5828
+libvlc_media_list_count	../pyparrot/utils/vlc.py	/^def libvlc_media_list_count(p_ml):$/;"	kind:function	line:5865
+libvlc_media_list_event_manager	../pyparrot/utils/vlc.py	/^def libvlc_media_list_event_manager(p_ml):$/;"	kind:function	line:5930
+libvlc_media_list_index_of_item	../pyparrot/utils/vlc.py	/^def libvlc_media_list_index_of_item(p_ml, p_md):$/;"	kind:function	line:5888
+libvlc_media_list_insert_media	../pyparrot/utils/vlc.py	/^def libvlc_media_list_insert_media(p_ml, p_md, i_pos):$/;"	kind:function	line:5840
+libvlc_media_list_is_readonly	../pyparrot/utils/vlc.py	/^def libvlc_media_list_is_readonly(p_ml):$/;"	kind:function	line:5901
+libvlc_media_list_item_at_index	../pyparrot/utils/vlc.py	/^def libvlc_media_list_item_at_index(p_ml, i_pos):$/;"	kind:function	line:5876
+libvlc_media_list_lock	../pyparrot/utils/vlc.py	/^def libvlc_media_list_lock(p_ml):$/;"	kind:function	line:5911
+libvlc_media_list_media	../pyparrot/utils/vlc.py	/^def libvlc_media_list_media(p_ml):$/;"	kind:function	line:5816
+libvlc_media_list_new	../pyparrot/utils/vlc.py	/^def libvlc_media_list_new(p_instance):$/;"	kind:function	line:5776
+libvlc_media_list_player_event_manager	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_event_manager(p_mlp):$/;"	kind:function	line:7993
+libvlc_media_list_player_get_media_player	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_get_media_player(p_mlp):$/;"	kind:function	line:8013
+libvlc_media_list_player_get_state	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_get_state(p_mlp):$/;"	kind:function	line:8072
+libvlc_media_list_player_is_playing	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_is_playing(p_mlp):$/;"	kind:function	line:8062
+libvlc_media_list_player_new	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_new(p_instance):$/;"	kind:function	line:7960
+libvlc_media_list_player_next	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_next(p_mlp):$/;"	kind:function	line:8113
+libvlc_media_list_player_pause	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_pause(p_mlp):$/;"	kind:function	line:8042
+libvlc_media_list_player_play	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_play(p_mlp):$/;"	kind:function	line:8033
+libvlc_media_list_player_play_item	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_play_item(p_mlp, p_md):$/;"	kind:function	line:8093
+libvlc_media_list_player_play_item_at_index	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_play_item_at_index(p_mlp, i_index):$/;"	kind:function	line:8082
+libvlc_media_list_player_previous	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_previous(p_mlp):$/;"	kind:function	line:8123
+libvlc_media_list_player_release	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_release(p_mlp):$/;"	kind:function	line:7970
+libvlc_media_list_player_retain	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_retain(p_mlp):$/;"	kind:function	line:7983
+libvlc_media_list_player_set_media_list	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_set_media_list(p_mlp, p_mlist):$/;"	kind:function	line:8023
+libvlc_media_list_player_set_media_player	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_set_media_player(p_mlp, p_mi):$/;"	kind:function	line:8003
+libvlc_media_list_player_set_pause	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_set_pause(p_mlp, do_pause):$/;"	kind:function	line:8051
+libvlc_media_list_player_set_playback_mode	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_set_playback_mode(p_mlp, e_mode):$/;"	kind:function	line:8133
+libvlc_media_list_player_stop	../pyparrot/utils/vlc.py	/^def libvlc_media_list_player_stop(p_mlp):$/;"	kind:function	line:8104
+libvlc_media_list_release	../pyparrot/utils/vlc.py	/^def libvlc_media_list_release(p_ml):$/;"	kind:function	line:5786
+libvlc_media_list_remove_index	../pyparrot/utils/vlc.py	/^def libvlc_media_list_remove_index(p_ml, i_pos):$/;"	kind:function	line:5853
+libvlc_media_list_retain	../pyparrot/utils/vlc.py	/^def libvlc_media_list_retain(p_ml):$/;"	kind:function	line:5795
+libvlc_media_list_set_media	../pyparrot/utils/vlc.py	/^def libvlc_media_list_set_media(p_ml, p_md):$/;"	kind:function	line:5804
+libvlc_media_list_unlock	../pyparrot/utils/vlc.py	/^def libvlc_media_list_unlock(p_ml):$/;"	kind:function	line:5920
+libvlc_media_new_as_node	../pyparrot/utils/vlc.py	/^def libvlc_media_new_as_node(p_instance, psz_name):$/;"	kind:function	line:5247
+libvlc_media_new_callbacks	../pyparrot/utils/vlc.py	/^def libvlc_media_new_callbacks(instance, open_cb, read_cb, seek_cb, close_cb, opaque):$/;"	kind:function	line:5231
+libvlc_media_new_fd	../pyparrot/utils/vlc.py	/^def libvlc_media_new_fd(p_instance, fd):$/;"	kind:function	line:5207
+libvlc_media_new_location	../pyparrot/utils/vlc.py	/^def libvlc_media_new_location(p_instance, psz_mrl):$/;"	kind:function	line:5178
+libvlc_media_new_path	../pyparrot/utils/vlc.py	/^def libvlc_media_new_path(p_instance, path):$/;"	kind:function	line:5195
+libvlc_media_parse	../pyparrot/utils/vlc.py	/^def libvlc_media_parse(p_md):$/;"	kind:function	line:6074
+libvlc_media_parse_async	../pyparrot/utils/vlc.py	/^def libvlc_media_parse_async(p_md):$/;"	kind:function	line:6090
+libvlc_media_parse_stop	../pyparrot/utils/vlc.py	/^def libvlc_media_parse_stop(p_md):$/;"	kind:function	line:5462
+libvlc_media_parse_with_options	../pyparrot/utils/vlc.py	/^def libvlc_media_parse_with_options(p_md, parse_flag, timeout):$/;"	kind:function	line:5435
+libvlc_media_player_add_slave	../pyparrot/utils/vlc.py	/^def libvlc_media_player_add_slave(p_mi, i_type, psz_uri, b_select):$/;"	kind:function	line:6953
+libvlc_media_player_can_pause	../pyparrot/utils/vlc.py	/^def libvlc_media_player_can_pause(p_mi):$/;"	kind:function	line:6900
+libvlc_media_player_event_manager	../pyparrot/utils/vlc.py	/^def libvlc_media_player_event_manager(p_mi):$/;"	kind:function	line:6365
+libvlc_media_player_get_agl	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_agl(p_mi):$/;"	kind:function	line:5963
+libvlc_media_player_get_chapter	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_chapter(p_mi):$/;"	kind:function	line:6758
+libvlc_media_player_get_chapter_count	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_chapter_count(p_mi):$/;"	kind:function	line:6768
+libvlc_media_player_get_chapter_count_for_title	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_chapter_count_for_title(p_mi, i_title):$/;"	kind:function	line:6788
+libvlc_media_player_get_fps	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_fps(p_mi):$/;"	kind:function	line:5941
+libvlc_media_player_get_full_chapter_descriptions	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_full_chapter_descriptions(p_mi, i_chapters_of_title, pp_chapters):$/;"	kind:function	line:7238
+libvlc_media_player_get_full_title_descriptions	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_full_title_descriptions(p_mi, titles):$/;"	kind:function	line:7215
+libvlc_media_player_get_hwnd	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_hwnd(p_mi):$/;"	kind:function	line:6598
+libvlc_media_player_get_length	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_length(p_mi):$/;"	kind:function	line:6695
+libvlc_media_player_get_media	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_media(p_mi):$/;"	kind:function	line:6355
+libvlc_media_player_get_nsobject	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_nsobject(p_mi):$/;"	kind:function	line:6537
+libvlc_media_player_get_position	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_position(p_mi):$/;"	kind:function	line:6726
+libvlc_media_player_get_rate	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_rate(p_mi):$/;"	kind:function	line:6847
+libvlc_media_player_get_role	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_role(p_mi):$/;"	kind:function	line:7938
+libvlc_media_player_get_state	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_state(p_mi):$/;"	kind:function	line:6870
+libvlc_media_player_get_time	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_time(p_mi):$/;"	kind:function	line:6705
+libvlc_media_player_get_title	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_title(p_mi):$/;"	kind:function	line:6809
+libvlc_media_player_get_title_count	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_title_count(p_mi):$/;"	kind:function	line:6819
+libvlc_media_player_get_xwindow	../pyparrot/utils/vlc.py	/^def libvlc_media_player_get_xwindow(p_mi):$/;"	kind:function	line:6573
+libvlc_media_player_has_vout	../pyparrot/utils/vlc.py	/^def libvlc_media_player_has_vout(p_mi):$/;"	kind:function	line:6880
+libvlc_media_player_is_playing	../pyparrot/utils/vlc.py	/^def libvlc_media_player_is_playing(p_mi):$/;"	kind:function	line:6375
+libvlc_media_player_is_seekable	../pyparrot/utils/vlc.py	/^def libvlc_media_player_is_seekable(p_mi):$/;"	kind:function	line:6890
+libvlc_media_player_navigate	../pyparrot/utils/vlc.py	/^def libvlc_media_player_navigate(p_mi, navigate):$/;"	kind:function	line:6930
+libvlc_media_player_new	../pyparrot/utils/vlc.py	/^def libvlc_media_player_new(p_libvlc_instance):$/;"	kind:function	line:6301
+libvlc_media_player_new_from_media	../pyparrot/utils/vlc.py	/^def libvlc_media_player_new_from_media(p_md):$/;"	kind:function	line:6311
+libvlc_media_player_next_chapter	../pyparrot/utils/vlc.py	/^def libvlc_media_player_next_chapter(p_mi):$/;"	kind:function	line:6838
+libvlc_media_player_next_frame	../pyparrot/utils/vlc.py	/^def libvlc_media_player_next_frame(p_mi):$/;"	kind:function	line:6921
+libvlc_media_player_pause	../pyparrot/utils/vlc.py	/^def libvlc_media_player_pause(p_mi):$/;"	kind:function	line:6406
+libvlc_media_player_play	../pyparrot/utils/vlc.py	/^def libvlc_media_player_play(p_mi):$/;"	kind:function	line:6385
+libvlc_media_player_previous_chapter	../pyparrot/utils/vlc.py	/^def libvlc_media_player_previous_chapter(p_mi):$/;"	kind:function	line:6829
+libvlc_media_player_program_scrambled	../pyparrot/utils/vlc.py	/^def libvlc_media_player_program_scrambled(p_mi):$/;"	kind:function	line:6910
+libvlc_media_player_release	../pyparrot/utils/vlc.py	/^def libvlc_media_player_release(p_mi):$/;"	kind:function	line:6321
+libvlc_media_player_retain	../pyparrot/utils/vlc.py	/^def libvlc_media_player_retain(p_mi):$/;"	kind:function	line:6334
+libvlc_media_player_set_agl	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_agl(p_mi, drawable):$/;"	kind:function	line:5955
+libvlc_media_player_set_android_context	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_android_context(p_mi, p_awindow_handler):$/;"	kind:function	line:6610
+libvlc_media_player_set_chapter	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_chapter(p_mi, i_chapter):$/;"	kind:function	line:6748
+libvlc_media_player_set_equalizer	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_equalizer(p_mi, p_equalizer):$/;"	kind:function	line:7912
+libvlc_media_player_set_evas_object	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_evas_object(p_mi, p_evas_object):$/;"	kind:function	line:6621
+libvlc_media_player_set_hwnd	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_hwnd(p_mi, drawable):$/;"	kind:function	line:6586
+libvlc_media_player_set_media	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_media(p_mi, p_md):$/;"	kind:function	line:6344
+libvlc_media_player_set_nsobject	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_nsobject(p_mi, drawable):$/;"	kind:function	line:6506
+libvlc_media_player_set_pause	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_pause(mp, do_pause):$/;"	kind:function	line:6395
+libvlc_media_player_set_position	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_position(p_mi, f_pos):$/;"	kind:function	line:6736
+libvlc_media_player_set_rate	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_rate(p_mi, rate):$/;"	kind:function	line:6859
+libvlc_media_player_set_renderer	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_renderer(p_mi, p_item):$/;"	kind:function	line:6424
+libvlc_media_player_set_role	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_role(p_mi, role):$/;"	kind:function	line:7949
+libvlc_media_player_set_time	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_time(p_mi, i_time):$/;"	kind:function	line:6715
+libvlc_media_player_set_title	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_title(p_mi, i_title):$/;"	kind:function	line:6799
+libvlc_media_player_set_video_title_display	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_video_title_display(p_mi, position, timeout):$/;"	kind:function	line:6941
+libvlc_media_player_set_xwindow	../pyparrot/utils/vlc.py	/^def libvlc_media_player_set_xwindow(p_mi, drawable):$/;"	kind:function	line:6547
+libvlc_media_player_stop	../pyparrot/utils/vlc.py	/^def libvlc_media_player_stop(p_mi):$/;"	kind:function	line:6415
+libvlc_media_player_will_play	../pyparrot/utils/vlc.py	/^def libvlc_media_player_will_play(p_mi):$/;"	kind:function	line:6778
+libvlc_media_release	../pyparrot/utils/vlc.py	/^def libvlc_media_release(p_md):$/;"	kind:function	line:5309
+libvlc_media_retain	../pyparrot/utils/vlc.py	/^def libvlc_media_retain(p_md):$/;"	kind:function	line:5298
+libvlc_media_save_meta	../pyparrot/utils/vlc.py	/^def libvlc_media_save_meta(p_md):$/;"	kind:function	line:5368
+libvlc_media_set_meta	../pyparrot/utils/vlc.py	/^def libvlc_media_set_meta(p_md, e_meta, psz_value):$/;"	kind:function	line:5356
+libvlc_media_set_user_data	../pyparrot/utils/vlc.py	/^def libvlc_media_set_user_data(p_md, p_new_user_data):$/;"	kind:function	line:5488
+libvlc_media_slaves_add	../pyparrot/utils/vlc.py	/^def libvlc_media_slaves_add(p_md, i_type, i_priority, psz_uri):$/;"	kind:function	line:5560
+libvlc_media_slaves_clear	../pyparrot/utils/vlc.py	/^def libvlc_media_slaves_clear(p_md):$/;"	kind:function	line:5579
+libvlc_media_slaves_get	../pyparrot/utils/vlc.py	/^def libvlc_media_slaves_get(p_md, ppp_slaves):$/;"	kind:function	line:5590
+libvlc_media_slaves_release	../pyparrot/utils/vlc.py	/^def libvlc_media_slaves_release(pp_slaves, i_count):$/;"	kind:function	line:5605
+libvlc_media_subitems	../pyparrot/utils/vlc.py	/^def libvlc_media_subitems(p_md):$/;"	kind:function	line:5402
+libvlc_media_tracks_get	../pyparrot/utils/vlc.py	/^def libvlc_media_tracks_get(p_md, tracks):$/;"	kind:function	line:5511
+libvlc_media_tracks_release	../pyparrot/utils/vlc.py	/^def libvlc_media_tracks_release(p_tracks, i_count):$/;"	kind:function	line:5538
+libvlc_module_description_list_release	../pyparrot/utils/vlc.py	/^def libvlc_module_description_list_release(p_list):$/;"	kind:function	line:4620
+libvlc_new	../pyparrot/utils/vlc.py	/^def libvlc_new(argc, argv):$/;"	kind:function	line:4367
+libvlc_playlist_play	../pyparrot/utils/vlc.py	/^def libvlc_playlist_play(p_instance, i_id, i_options, ppsz_options):$/;"	kind:function	line:6287
+libvlc_release	../pyparrot/utils/vlc.py	/^def libvlc_release(p_instance):$/;"	kind:function	line:4409
+libvlc_renderer_discoverer_event_manager	../pyparrot/utils/vlc.py	/^def libvlc_renderer_discoverer_event_manager(p_rd):$/;"	kind:function	line:5734
+libvlc_renderer_discoverer_list_get	../pyparrot/utils/vlc.py	/^def libvlc_renderer_discoverer_list_get(p_inst, ppp_services):$/;"	kind:function	line:5751
+libvlc_renderer_discoverer_list_release	../pyparrot/utils/vlc.py	/^def libvlc_renderer_discoverer_list_release(pp_services, i_count):$/;"	kind:function	line:5764
+libvlc_renderer_discoverer_new	../pyparrot/utils/vlc.py	/^def libvlc_renderer_discoverer_new(p_inst, psz_name):$/;"	kind:function	line:5681
+libvlc_renderer_discoverer_release	../pyparrot/utils/vlc.py	/^def libvlc_renderer_discoverer_release(p_rd):$/;"	kind:function	line:5699
+libvlc_renderer_discoverer_start	../pyparrot/utils/vlc.py	/^def libvlc_renderer_discoverer_start(p_rd):$/;"	kind:function	line:5709
+libvlc_renderer_discoverer_stop	../pyparrot/utils/vlc.py	/^def libvlc_renderer_discoverer_stop(p_rd):$/;"	kind:function	line:5723
+libvlc_renderer_item_flags	../pyparrot/utils/vlc.py	/^def libvlc_renderer_item_flags(p_item):$/;"	kind:function	line:5669
+libvlc_renderer_item_hold	../pyparrot/utils/vlc.py	/^def libvlc_renderer_item_hold(p_item):$/;"	kind:function	line:5616
+libvlc_renderer_item_icon_uri	../pyparrot/utils/vlc.py	/^def libvlc_renderer_item_icon_uri(p_item):$/;"	kind:function	line:5659
+libvlc_renderer_item_name	../pyparrot/utils/vlc.py	/^def libvlc_renderer_item_name(p_item):$/;"	kind:function	line:5638
+libvlc_renderer_item_release	../pyparrot/utils/vlc.py	/^def libvlc_renderer_item_release(p_item):$/;"	kind:function	line:5629
+libvlc_renderer_item_type	../pyparrot/utils/vlc.py	/^def libvlc_renderer_item_type(p_item):$/;"	kind:function	line:5648
+libvlc_retain	../pyparrot/utils/vlc.py	/^def libvlc_retain(p_instance):$/;"	kind:function	line:4419
+libvlc_set_app_id	../pyparrot/utils/vlc.py	/^def libvlc_set_app_id(p_instance, id, version, icon):$/;"	kind:function	line:4453
+libvlc_set_fullscreen	../pyparrot/utils/vlc.py	/^def libvlc_set_fullscreen(p_mi, b_fullscreen):$/;"	kind:function	line:6989
+libvlc_set_log_verbosity	../pyparrot/utils/vlc.py	/^def libvlc_set_log_verbosity(p_instance, level):$/;"	kind:function	line:6192
+libvlc_set_user_agent	../pyparrot/utils/vlc.py	/^def libvlc_set_user_agent(p_instance, name, http):$/;"	kind:function	line:4440
+libvlc_title_descriptions_release	../pyparrot/utils/vlc.py	/^def libvlc_title_descriptions_release(p_titles, i_count):$/;"	kind:function	line:7227
+libvlc_toggle_fullscreen	../pyparrot/utils/vlc.py	/^def libvlc_toggle_fullscreen(p_mi):$/;"	kind:function	line:6978
+libvlc_toggle_teletext	../pyparrot/utils/vlc.py	/^def libvlc_toggle_teletext(p_mi):$/;"	kind:function	line:6034
+libvlc_track_description_list_release	../pyparrot/utils/vlc.py	/^def libvlc_track_description_list_release(p_track_description):$/;"	kind:function	line:6969
+libvlc_track_description_release	../pyparrot/utils/vlc.py	/^def libvlc_track_description_release(p_track_description):$/;"	kind:function	line:5971
+libvlc_video_filter_list_get	../pyparrot/utils/vlc.py	/^def libvlc_video_filter_list_get(p_instance):$/;"	kind:function	line:4639
+libvlc_video_get_adjust_float	../pyparrot/utils/vlc.py	/^def libvlc_video_get_adjust_float(p_mi, option):$/;"	kind:function	line:7478
+libvlc_video_get_adjust_int	../pyparrot/utils/vlc.py	/^def libvlc_video_get_adjust_int(p_mi, option):$/;"	kind:function	line:7452
+libvlc_video_get_aspect_ratio	../pyparrot/utils/vlc.py	/^def libvlc_video_get_aspect_ratio(p_mi):$/;"	kind:function	line:7103
+libvlc_video_get_chapter_description	../pyparrot/utils/vlc.py	/^def libvlc_video_get_chapter_description(p_mi, i_title):$/;"	kind:function	line:6011
+libvlc_video_get_crop_geometry	../pyparrot/utils/vlc.py	/^def libvlc_video_get_crop_geometry(p_mi):$/;"	kind:function	line:7262
+libvlc_video_get_cursor	../pyparrot/utils/vlc.py	/^def libvlc_video_get_cursor(p_mi, num):$/;"	kind:function	line:7057
+libvlc_video_get_height	../pyparrot/utils/vlc.py	/^def libvlc_video_get_height(p_mi):$/;"	kind:function	line:5979
+libvlc_video_get_logo_int	../pyparrot/utils/vlc.py	/^def libvlc_video_get_logo_int(p_mi, option):$/;"	kind:function	line:7416
+libvlc_video_get_marquee_int	../pyparrot/utils/vlc.py	/^def libvlc_video_get_marquee_int(p_mi, option):$/;"	kind:function	line:7372
+libvlc_video_get_marquee_string	../pyparrot/utils/vlc.py	/^def libvlc_video_get_marquee_string(p_mi, option):$/;"	kind:function	line:7382
+libvlc_video_get_scale	../pyparrot/utils/vlc.py	/^def libvlc_video_get_scale(p_mi):$/;"	kind:function	line:7078
+libvlc_video_get_size	../pyparrot/utils/vlc.py	/^def libvlc_video_get_size(p_mi, num):$/;"	kind:function	line:7046
+libvlc_video_get_spu	../pyparrot/utils/vlc.py	/^def libvlc_video_get_spu(p_mi):$/;"	kind:function	line:7147
+libvlc_video_get_spu_count	../pyparrot/utils/vlc.py	/^def libvlc_video_get_spu_count(p_mi):$/;"	kind:function	line:7157
+libvlc_video_get_spu_delay	../pyparrot/utils/vlc.py	/^def libvlc_video_get_spu_delay(p_mi):$/;"	kind:function	line:7188
+libvlc_video_get_spu_description	../pyparrot/utils/vlc.py	/^def libvlc_video_get_spu_description(p_mi):$/;"	kind:function	line:7167
+libvlc_video_get_teletext	../pyparrot/utils/vlc.py	/^def libvlc_video_get_teletext(p_mi):$/;"	kind:function	line:7282
+libvlc_video_get_title_description	../pyparrot/utils/vlc.py	/^def libvlc_video_get_title_description(p_mi):$/;"	kind:function	line:6001
+libvlc_video_get_track	../pyparrot/utils/vlc.py	/^def libvlc_video_get_track(p_mi):$/;"	kind:function	line:7325
+libvlc_video_get_track_count	../pyparrot/utils/vlc.py	/^def libvlc_video_get_track_count(p_mi):$/;"	kind:function	line:7305
+libvlc_video_get_track_description	../pyparrot/utils/vlc.py	/^def libvlc_video_get_track_description(p_mi):$/;"	kind:function	line:7315
+libvlc_video_get_width	../pyparrot/utils/vlc.py	/^def libvlc_video_get_width(p_mi):$/;"	kind:function	line:5990
+libvlc_video_new_viewpoint	../pyparrot/utils/vlc.py	/^def libvlc_video_new_viewpoint():$/;"	kind:function	line:7123
+libvlc_video_set_adjust_float	../pyparrot/utils/vlc.py	/^def libvlc_video_set_adjust_float(p_mi, option, value):$/;"	kind:function	line:7489
+libvlc_video_set_adjust_int	../pyparrot/utils/vlc.py	/^def libvlc_video_set_adjust_int(p_mi, option, value):$/;"	kind:function	line:7463
+libvlc_video_set_aspect_ratio	../pyparrot/utils/vlc.py	/^def libvlc_video_set_aspect_ratio(p_mi, psz_aspect):$/;"	kind:function	line:7113
+libvlc_video_set_callbacks	../pyparrot/utils/vlc.py	/^def libvlc_video_set_callbacks(mp, lock, unlock, display, opaque):$/;"	kind:function	line:6439
+libvlc_video_set_crop_geometry	../pyparrot/utils/vlc.py	/^def libvlc_video_set_crop_geometry(p_mi, psz_geometry):$/;"	kind:function	line:7272
+libvlc_video_set_deinterlace	../pyparrot/utils/vlc.py	/^def libvlc_video_set_deinterlace(p_mi, psz_mode):$/;"	kind:function	line:7362
+libvlc_video_set_format	../pyparrot/utils/vlc.py	/^def libvlc_video_set_format(mp, chroma, width, height, pitch):$/;"	kind:function	line:6476
+libvlc_video_set_format_callbacks	../pyparrot/utils/vlc.py	/^def libvlc_video_set_format_callbacks(mp, setup, cleanup):$/;"	kind:function	line:6493
+libvlc_video_set_key_input	../pyparrot/utils/vlc.py	/^def libvlc_video_set_key_input(p_mi, on):$/;"	kind:function	line:7015
+libvlc_video_set_logo_int	../pyparrot/utils/vlc.py	/^def libvlc_video_set_logo_int(p_mi, option, value):$/;"	kind:function	line:7426
+libvlc_video_set_logo_string	../pyparrot/utils/vlc.py	/^def libvlc_video_set_logo_string(p_mi, option, psz_value):$/;"	kind:function	line:7440
+libvlc_video_set_marquee_int	../pyparrot/utils/vlc.py	/^def libvlc_video_set_marquee_int(p_mi, option, i_val):$/;"	kind:function	line:7392
+libvlc_video_set_marquee_string	../pyparrot/utils/vlc.py	/^def libvlc_video_set_marquee_string(p_mi, option, psz_text):$/;"	kind:function	line:7405
+libvlc_video_set_mouse_input	../pyparrot/utils/vlc.py	/^def libvlc_video_set_mouse_input(p_mi, on):$/;"	kind:function	line:7032
+libvlc_video_set_scale	../pyparrot/utils/vlc.py	/^def libvlc_video_set_scale(p_mi, f_factor):$/;"	kind:function	line:7089
+libvlc_video_set_spu	../pyparrot/utils/vlc.py	/^def libvlc_video_set_spu(p_mi, i_spu):$/;"	kind:function	line:7177
+libvlc_video_set_spu_delay	../pyparrot/utils/vlc.py	/^def libvlc_video_set_spu_delay(p_mi, i_delay):$/;"	kind:function	line:7200
+libvlc_video_set_subtitle_file	../pyparrot/utils/vlc.py	/^def libvlc_video_set_subtitle_file(p_mi, psz_subtitle):$/;"	kind:function	line:6022
+libvlc_video_set_teletext	../pyparrot/utils/vlc.py	/^def libvlc_video_set_teletext(p_mi, i_page):$/;"	kind:function	line:7294
+libvlc_video_set_track	../pyparrot/utils/vlc.py	/^def libvlc_video_set_track(p_mi, i_track):$/;"	kind:function	line:7335
+libvlc_video_take_snapshot	../pyparrot/utils/vlc.py	/^def libvlc_video_take_snapshot(p_mi, num, psz_filepath, i_width, i_height):$/;"	kind:function	line:7346
+libvlc_video_update_viewpoint	../pyparrot/utils/vlc.py	/^def libvlc_video_update_viewpoint(p_mi, p_viewpoint, b_absolute):$/;"	kind:function	line:7133
+libvlc_vlm_add_broadcast	../pyparrot/utils/vlc.py	/^def libvlc_vlm_add_broadcast(p_instance, psz_name, psz_input, psz_output, i_options, ppsz_options, b_enabled, b_loop):$/;"	kind:function	line:4882
+libvlc_vlm_add_input	../pyparrot/utils/vlc.py	/^def libvlc_vlm_add_input(p_instance, psz_name, psz_input):$/;"	kind:function	line:4963
+libvlc_vlm_add_vod	../pyparrot/utils/vlc.py	/^def libvlc_vlm_add_vod(p_instance, psz_name, psz_input, i_options, ppsz_options, b_enabled, psz_mux):$/;"	kind:function	line:4899
+libvlc_vlm_change_media	../pyparrot/utils/vlc.py	/^def libvlc_vlm_change_media(p_instance, psz_name, psz_input, psz_output, i_options, ppsz_options, b_enabled, b_loop):$/;"	kind:function	line:4999
+libvlc_vlm_del_media	../pyparrot/utils/vlc.py	/^def libvlc_vlm_del_media(p_instance, psz_name):$/;"	kind:function	line:4915
+libvlc_vlm_get_event_manager	../pyparrot/utils/vlc.py	/^def libvlc_vlm_get_event_manager(p_instance):$/;"	kind:function	line:5167
+libvlc_vlm_get_media_instance_chapter	../pyparrot/utils/vlc.py	/^def libvlc_vlm_get_media_instance_chapter(p_instance, psz_name, i_instance):$/;"	kind:function	line:5141
+libvlc_vlm_get_media_instance_length	../pyparrot/utils/vlc.py	/^def libvlc_vlm_get_media_instance_length(p_instance, psz_name, i_instance):$/;"	kind:function	line:5104
+libvlc_vlm_get_media_instance_position	../pyparrot/utils/vlc.py	/^def libvlc_vlm_get_media_instance_position(p_instance, psz_name, i_instance):$/;"	kind:function	line:5080
+libvlc_vlm_get_media_instance_rate	../pyparrot/utils/vlc.py	/^def libvlc_vlm_get_media_instance_rate(p_instance, psz_name, i_instance):$/;"	kind:function	line:5116
+libvlc_vlm_get_media_instance_seekable	../pyparrot/utils/vlc.py	/^def libvlc_vlm_get_media_instance_seekable(p_instance, psz_name, i_instance):$/;"	kind:function	line:5154
+libvlc_vlm_get_media_instance_time	../pyparrot/utils/vlc.py	/^def libvlc_vlm_get_media_instance_time(p_instance, psz_name, i_instance):$/;"	kind:function	line:5092
+libvlc_vlm_get_media_instance_title	../pyparrot/utils/vlc.py	/^def libvlc_vlm_get_media_instance_title(p_instance, psz_name, i_instance):$/;"	kind:function	line:5128
+libvlc_vlm_pause_media	../pyparrot/utils/vlc.py	/^def libvlc_vlm_pause_media(p_instance, psz_name):$/;"	kind:function	line:5039
+libvlc_vlm_play_media	../pyparrot/utils/vlc.py	/^def libvlc_vlm_play_media(p_instance, psz_name):$/;"	kind:function	line:5017
+libvlc_vlm_release	../pyparrot/utils/vlc.py	/^def libvlc_vlm_release(p_instance):$/;"	kind:function	line:4873
+libvlc_vlm_seek_media	../pyparrot/utils/vlc.py	/^def libvlc_vlm_seek_media(p_instance, psz_name, f_percentage):$/;"	kind:function	line:5050
+libvlc_vlm_set_enabled	../pyparrot/utils/vlc.py	/^def libvlc_vlm_set_enabled(p_instance, psz_name, b_enabled):$/;"	kind:function	line:4926
+libvlc_vlm_set_input	../pyparrot/utils/vlc.py	/^def libvlc_vlm_set_input(p_instance, psz_name, psz_input):$/;"	kind:function	line:4950
+libvlc_vlm_set_loop	../pyparrot/utils/vlc.py	/^def libvlc_vlm_set_loop(p_instance, psz_name, b_loop):$/;"	kind:function	line:4975
+libvlc_vlm_set_mux	../pyparrot/utils/vlc.py	/^def libvlc_vlm_set_mux(p_instance, psz_name, psz_mux):$/;"	kind:function	line:4987
+libvlc_vlm_set_output	../pyparrot/utils/vlc.py	/^def libvlc_vlm_set_output(p_instance, psz_name, psz_output):$/;"	kind:function	line:4938
+libvlc_vlm_show_media	../pyparrot/utils/vlc.py	/^def libvlc_vlm_show_media(p_instance, psz_name):$/;"	kind:function	line:5062
+libvlc_vlm_stop_media	../pyparrot/utils/vlc.py	/^def libvlc_vlm_stop_media(p_instance, psz_name):$/;"	kind:function	line:5028
+libvlc_vprinterr	../pyparrot/utils/vlc.py	/^def libvlc_vprinterr(fmt, ap):$/;"	kind:function	line:4355
+libvlc_wait	../pyparrot/utils/vlc.py	/^def libvlc_wait(p_instance):$/;"	kind:function	line:6171
+load	../pyparrot/utils/vlc.py	/^    def load(self):$/;"	kind:member	line:2838
+localized_name	../pyparrot/utils/vlc.py	/^    def localized_name(self):$/;"	kind:member	line:2796
+lock	../pyparrot/utils/vlc.py	/^    def lock(self):$/;"	kind:member	line:2980
+log_open	../pyparrot/utils/vlc.py	/^    def log_open(self):$/;"	kind:member	line:2311
+log_set	../pyparrot/utils/vlc.py	/^    def log_set(self, cb, data):$/;"	kind:member	line:1882
+log_set_file	../pyparrot/utils/vlc.py	/^    def log_set_file(self, stream):$/;"	kind:member	line:1893
+log_unset	../pyparrot/utils/vlc.py	/^    def log_unset(self):$/;"	kind:member	line:1870
+logger	../pyparrot/utils/vlc.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:53
+loss	../train_nn.py	/^    loss='categorical_crossentropy',$/;"	kind:variable	line:46
+mDNSListener	../pyparrot/networking/wifiConnection.py	/^class mDNSListener(object):$/;"	kind:class	line:17
+main	../pyparrot/VisionServer.py	/^def main():$/;"	kind:function	line:123
+mambo	../pyparrot/examples/demoMamboClaw.py	/^mambo = Mambo(mamboAddr, use_wifi=False)$/;"	kind:variable	line:12
+mambo	../pyparrot/examples/demoMamboDirectFlight.py	/^mambo = Mambo(mamboAddr, use_wifi=True)$/;"	kind:variable	line:12
+mambo	../pyparrot/examples/demoMamboGun.py	/^mambo = Mambo(mamboAddr, use_wifi=False)$/;"	kind:variable	line:12
+mambo	../pyparrot/examples/demoMamboTricks.py	/^mambo = Mambo(mamboAddr, use_wifi=True)$/;"	kind:variable	line:12
+mambo	../pyparrot/examples/demoMamboVision.py	/^mambo = Mambo(mamboAddr, use_wifi=True)$/;"	kind:variable	line:37
+mambo	../pyparrot/examples/demoMamboVisionGUI.py	/^    mambo = Mambo(mamboAddr, use_wifi=True)$/;"	kind:variable	line:78
+mamboAddr	../pyparrot/examples/demoMamboClaw.py	/^mamboAddr = "e0:14:d0:63:3d:d0"$/;"	kind:variable	line:8
+mamboAddr	../pyparrot/examples/demoMamboDirectFlight.py	/^mamboAddr = "e0:14:d0:63:3d:d0"$/;"	kind:variable	line:8
+mamboAddr	../pyparrot/examples/demoMamboGun.py	/^mamboAddr = "e0:14:d0:63:3d:d0"$/;"	kind:variable	line:8
+mamboAddr	../pyparrot/examples/demoMamboTricks.py	/^mamboAddr = "e0:14:d0:63:3d:d0"$/;"	kind:variable	line:8
+mamboAddr	../pyparrot/examples/demoMamboVision.py	/^mamboAddr = "e0:14:d0:63:3d:d0"$/;"	kind:variable	line:33
+mamboAddr	../pyparrot/examples/demoMamboVisionGUI.py	/^    mamboAddr = "e0:14:d0:63:3d:d0"$/;"	kind:variable	line:74
+mamboVision	../pyparrot/examples/demoMamboVision.py	/^    mamboVision = DroneVision(mambo, is_bebop=False, buffer_size=30)$/;"	kind:variable	line:50
+mamboVision	../pyparrot/examples/demoMamboVisionGUI.py	/^        mamboVision = DroneVisionGUI(mambo, is_bebop=False, buffer_size=200,$/;"	kind:variable	line:91
+media	../pyparrot/utils/vlc.py	/^    def media(self):$/;"	kind:member	line:2908
+media_discoverer_list_get	../pyparrot/utils/vlc.py	/^    def media_discoverer_list_get(self, i_cat, ppp_services):$/;"	kind:member	line:1917
+media_discoverer_new	../pyparrot/utils/vlc.py	/^    def media_discoverer_new(self, psz_name):$/;"	kind:member	line:1901
+media_discoverer_new_from_name	../pyparrot/utils/vlc.py	/^    def media_discoverer_new_from_name(self, psz_name):$/;"	kind:member	line:2282
+media_library_new	../pyparrot/utils/vlc.py	/^    def media_library_new(self):$/;"	kind:member	line:1927
+media_list	../pyparrot/utils/vlc.py	/^    def media_list(self):$/;"	kind:member	line:2782
+media_list	../pyparrot/utils/vlc.py	/^    def media_list(self):$/;"	kind:member	line:2845
+media_list_new	../pyparrot/utils/vlc.py	/^    def media_list_new(self, mrls=None):$/;"	kind:member	line:1781
+media_list_player_new	../pyparrot/utils/vlc.py	/^    def media_list_player_new(self):$/;"	kind:member	line:1744
+media_new	../pyparrot/utils/vlc.py	/^    def media_new(self, mrl, *options):$/;"	kind:member	line:1751
+media_new_as_node	../pyparrot/utils/vlc.py	/^    def media_new_as_node(self, psz_name):$/;"	kind:member	line:2224
+media_new_callbacks	../pyparrot/utils/vlc.py	/^    def media_new_callbacks(self, open_cb, read_cb, seek_cb, close_cb, opaque):$/;"	kind:member	line:2211
+media_new_fd	../pyparrot/utils/vlc.py	/^    def media_new_fd(self, fd):$/;"	kind:member	line:2190
+media_new_location	../pyparrot/utils/vlc.py	/^    def media_new_location(self, psz_mrl):$/;"	kind:member	line:2167
+media_new_path	../pyparrot/utils/vlc.py	/^    def media_new_path(self, path):$/;"	kind:member	line:2181
+media_player_new	../pyparrot/utils/vlc.py	/^    def media_player_new(self, uri=None):$/;"	kind:member	line:1733
+memoize_parameterless	../pyparrot/utils/vlc.py	/^class memoize_parameterless(object):$/;"	kind:class	line:217
+model	../train_nn.py	/^model = tflearn.DNN(nn, tensorboard_verbose=0)$/;"	kind:variable	line:50
+module_description_list	../pyparrot/utils/vlc.py	/^def module_description_list(head):$/;"	kind:function	line:1545
+mspf	../pyparrot/utils/vlc.py	/^        def mspf():$/;"	kind:function	line:8362
+n_epoch	../train_nn.py	/^    n_epoch=50,$/;"	kind:variable	line:54
+navigate	../pyparrot/utils/vlc.py	/^    def navigate(self, navigate):$/;"	kind:member	line:3804
+new_size	../data_preprocessing.py	/^new_size = 32, 32$/;"	kind:variable	line:9
+next	../pyparrot/utils/vlc.py	/^    def next(self):$/;"	kind:member	line:2366
+next	../pyparrot/utils/vlc.py	/^    def next(self):$/;"	kind:member	line:3136
+next_chapter	../pyparrot/utils/vlc.py	/^    def next_chapter(self):$/;"	kind:member	line:3739
+next_frame	../pyparrot/utils/vlc.py	/^    def next_frame(self):$/;"	kind:member	line:3798
+nn	../train_nn.py	/^nn = conv_2d(nn, 32, 3, activation='relu')$/;"	kind:variable	line:35
+nn	../train_nn.py	/^nn = conv_2d(nn, 64, 3, activation='relu')$/;"	kind:variable	line:37
+nn	../train_nn.py	/^nn = conv_2d(nn, 64, 3, activation='relu')$/;"	kind:variable	line:38
+nn	../train_nn.py	/^nn = dropout(nn, 0.5)$/;"	kind:variable	line:41
+nn	../train_nn.py	/^nn = fully_connected(nn, 3, activation='softmax')$/;"	kind:variable	line:42
+nn	../train_nn.py	/^nn = fully_connected(nn, 512, activation='relu')$/;"	kind:variable	line:40
+nn	../train_nn.py	/^nn = input_data($/;"	kind:variable	line:30
+nn	../train_nn.py	/^nn = max_pool_2d(nn, 2)$/;"	kind:variable	line:36
+nn	../train_nn.py	/^nn = max_pool_2d(nn, 2)$/;"	kind:variable	line:39
+nn	../train_nn.py	/^nn = regression($/;"	kind:variable	line:43
+open_claw	../pyparrot/Mambo.py	/^    def open_claw(self):$/;"	kind:member	line:504
+open_file_menu	../pyparrot/coursework/droneMapGUI.py	/^    def open_file_menu(self):$/;"	kind:member	line:233
+open_video	../pyparrot/DroneVision.py	/^    def open_video(self):$/;"	kind:member	line:68
+open_video	../pyparrot/DroneVisionGUI.py	/^    def open_video(self):$/;"	kind:member	line:237
+optimizer	../train_nn.py	/^    optimizer='adam',$/;"	kind:variable	line:45
+original_img_dir	../data_preprocessing.py	/^original_img_dir = 'original_imgs'$/;"	kind:variable	line:7
+pan_tilt_camera	../pyparrot/Bebop.py	/^    def pan_tilt_camera(self, tilt_degrees, pan_degrees):$/;"	kind:member	line:338
+pan_tilt_camera_velocity	../pyparrot/Bebop.py	/^    def pan_tilt_camera_velocity(self, tilt_velocity, pan_velocity, duration=0):$/;"	kind:member	line:354
+parse	../pyparrot/utils/vlc.py	/^    def parse(self):$/;"	kind:member	line:2688
+parse_async	../pyparrot/utils/vlc.py	/^    def parse_async(self):$/;"	kind:member	line:2701
+parse_stop	../pyparrot/utils/vlc.py	/^    def parse_stop(self):$/;"	kind:member	line:2607
+parse_with_options	../pyparrot/utils/vlc.py	/^    def parse_with_options(self, parse_flag, timeout):$/;"	kind:member	line:2583
+pause	../pyparrot/utils/vlc.py	/^    def pause(self):$/;"	kind:member	line:3079
+pause	../pyparrot/utils/vlc.py	/^    def pause(self):$/;"	kind:member	line:3412
+play	../pyparrot/utils/vlc.py	/^    def play(self):$/;"	kind:member	line:3073
+play	../pyparrot/utils/vlc.py	/^    def play(self):$/;"	kind:member	line:3397
+play_item	../pyparrot/utils/vlc.py	/^    def play_item(self, p_md):$/;"	kind:member	line:3122
+play_item_at_index	../pyparrot/utils/vlc.py	/^    def play_item_at_index(self, i_index):$/;"	kind:member	line:3107
+player_new_from_media	../pyparrot/utils/vlc.py	/^    def player_new_from_media(self):$/;"	kind:member	line:2741
+playlist_play	../pyparrot/utils/vlc.py	/^    def playlist_play(self, i_id, i_options, ppsz_options):$/;"	kind:member	line:2319
+pos_callback	../pyparrot/utils/vlc.py	/^    def pos_callback(event, player):$/;"	kind:function	line:8301
+previous	../pyparrot/utils/vlc.py	/^    def previous(self):$/;"	kind:member	line:3143
+previous_chapter	../pyparrot/utils/vlc.py	/^    def previous_chapter(self):$/;"	kind:member	line:3733
+print_help	../pyparrot/utils/vlc.py	/^        def print_help():$/;"	kind:function	line:8401
+print_info	../pyparrot/utils/vlc.py	/^        def print_info():$/;"	kind:function	line:8366
+print_version	../pyparrot/utils/vlc.py	/^    def print_version():$/;"	kind:function	line:8308
+program_scrambled	../pyparrot/utils/vlc.py	/^    def program_scrambled(self):$/;"	kind:member	line:3790
+quaternion_to_euler_angle	../pyparrot/Mambo.py	/^    def quaternion_to_euler_angle(self, w, x, y, z):$/;"	kind:member	line:157
+quit_app	../pyparrot/utils/vlc.py	/^        def quit_app():$/;"	kind:function	line:8409
+readline	../pyparrot/utils/NonBlockingStreamReader.py	/^    def readline(self, timeout = None):$/;"	kind:member	line:47
+release	../pyparrot/utils/vlc.py	/^    def release(self):$/;"	kind:member	line:1827
+release	../pyparrot/utils/vlc.py	/^    def release(self):$/;"	kind:member	line:2490
+release	../pyparrot/utils/vlc.py	/^    def release(self):$/;"	kind:member	line:2775
+release	../pyparrot/utils/vlc.py	/^    def release(self):$/;"	kind:member	line:2822
+release	../pyparrot/utils/vlc.py	/^    def release(self):$/;"	kind:member	line:2887
+release	../pyparrot/utils/vlc.py	/^    def release(self):$/;"	kind:member	line:3028
+release	../pyparrot/utils/vlc.py	/^    def release(self):$/;"	kind:member	line:3351
+remove_index	../pyparrot/utils/vlc.py	/^    def remove_index(self, i_pos):$/;"	kind:member	line:2927
+remove_service	../pyparrot/networking/wifiConnection.py	/^    def remove_service(self, zeroconf, type, name):$/;"	kind:member	line:26
+renderer_discoverer_list_get	../pyparrot/utils/vlc.py	/^    def renderer_discoverer_list_get(self, ppp_services):$/;"	kind:member	line:2248
+renderer_discoverer_new	../pyparrot/utils/vlc.py	/^    def renderer_discoverer_new(self, psz_name):$/;"	kind:member	line:2233
+resized_img_dir	../data_preprocessing.py	/^resized_img_dir = 'resized_imgs'$/;"	kind:variable	line:8
+retain	../pyparrot/utils/vlc.py	/^    def retain(self):$/;"	kind:member	line:1834
+retain	../pyparrot/utils/vlc.py	/^    def retain(self):$/;"	kind:member	line:2482
+retain	../pyparrot/utils/vlc.py	/^    def retain(self):$/;"	kind:member	line:2830
+retain	../pyparrot/utils/vlc.py	/^    def retain(self):$/;"	kind:member	line:2893
+retain	../pyparrot/utils/vlc.py	/^    def retain(self):$/;"	kind:member	line:3038
+retain	../pyparrot/utils/vlc.py	/^    def retain(self):$/;"	kind:member	line:3361
+run	../pyparrot/DroneVisionGUI.py	/^    def run(self):$/;"	kind:member	line:142
+run	../pyparrot/DroneVisionGUI.py	/^    def run(self):$/;"	kind:member	line:169
+run_id	../train_nn.py	/^    run_id='Parrot NN'$/;"	kind:variable	line:58
+run_user_code	../pyparrot/DroneVisionGUI.py	/^    def run_user_code(self, button):$/;"	kind:member	line:216
+safe_emergency	../pyparrot/Mambo.py	/^    def safe_emergency(self, timeout):$/;"	kind:member	line:604
+safe_land	../pyparrot/Bebop.py	/^    def safe_land(self, timeout):$/;"	kind:member	line:198
+safe_land	../pyparrot/Mambo.py	/^    def safe_land(self, timeout):$/;"	kind:member	line:354
+safe_send	../pyparrot/networking/wifiConnection.py	/^    def safe_send(self, packet):$/;"	kind:member	line:389
+safe_takeoff	../pyparrot/Bebop.py	/^    def safe_takeoff(self, timeout):$/;"	kind:member	line:144
+safe_takeoff	../pyparrot/Mambo.py	/^    def safe_takeoff(self, timeout):$/;"	kind:member	line:312
+save_file_menu	../pyparrot/coursework/droneMapGUI.py	/^    def save_file_menu(self):$/;"	kind:member	line:250
+save_meta	../pyparrot/utils/vlc.py	/^    def save_meta(self):$/;"	kind:member	line:2534
+save_pictures	../pyparrot/examples/demoBebopVision.py	/^    def save_pictures(self, args):$/;"	kind:member	line:17
+save_pictures	../pyparrot/examples/demoBebopVisionGUI.py	/^    def save_pictures(self, args):$/;"	kind:member	line:18
+save_pictures	../pyparrot/examples/demoMamboVision.py	/^    def save_pictures(self, args):$/;"	kind:member	line:19
+save_pictures	../pyparrot/examples/demoMamboVisionGUI.py	/^    def save_pictures(self, args):$/;"	kind:member	line:18
+scanner	../pyparrot/findMambo.py	/^scanner = Scanner().withDelegate(ScanDelegate())$/;"	kind:variable	line:26
+sec_backward	../pyparrot/utils/vlc.py	/^        def sec_backward():$/;"	kind:function	line:8389
+sec_forward	../pyparrot/utils/vlc.py	/^        def sec_forward():$/;"	kind:function	line:8385
+send_auto_takeoff_command	../pyparrot/networking/bleConnection.py	/^    def send_auto_takeoff_command(self, command_tuple):$/;"	kind:member	line:362
+send_camera_move_command	../pyparrot/networking/wifiConnection.py	/^    def send_camera_move_command(self, command_tuple, pan, tilt):$/;"	kind:member	line:593
+send_command_packet_ack	../pyparrot/networking/bleConnection.py	/^    def send_command_packet_ack(self, packet):$/;"	kind:member	line:381
+send_command_packet_ack	../pyparrot/networking/wifiConnection.py	/^    def send_command_packet_ack(self, packet, seq_id):$/;"	kind:member	line:407
+send_command_packet_noack	../pyparrot/networking/wifiConnection.py	/^    def send_command_packet_noack(self, packet):$/;"	kind:member	line:424
+send_enum_command_packet_ack	../pyparrot/networking/bleConnection.py	/^    def send_enum_command_packet_ack(self, command_tuple, enum_value, usb_id=None):$/;"	kind:member	line:446
+send_enum_command_packet_ack	../pyparrot/networking/wifiConnection.py	/^    def send_enum_command_packet_ack(self, command_tuple, enum_value, usb_id=None):$/;"	kind:member	line:612
+send_fly_relative_command	../pyparrot/networking/wifiConnection.py	/^    def send_fly_relative_command(self, command_tuple, change_x, change_y, change_z, change_angle):$/;"	kind:member	line:551
+send_noparam_command_packet_ack	../pyparrot/networking/bleConnection.py	/^    def send_noparam_command_packet_ack(self, command_tuple):$/;"	kind:member	line:427
+send_noparam_command_packet_ack	../pyparrot/networking/wifiConnection.py	/^    def send_noparam_command_packet_ack(self, command_tuple):$/;"	kind:member	line:451
+send_noparam_high_priority_command_packet	../pyparrot/networking/wifiConnection.py	/^    def send_noparam_high_priority_command_packet(self, command_tuple):$/;"	kind:member	line:435
+send_param_command_packet	../pyparrot/networking/bleConnection.py	/^    def send_param_command_packet(self, command_tuple, param_tuple=None, param_type_tuple=0, ack=True):$/;"	kind:member	line:471
+send_param_command_packet	../pyparrot/networking/wifiConnection.py	/^    def send_param_command_packet(self, command_tuple, param_tuple=None, param_type_tuple=0,ack=True):$/;"	kind:member	line:466
+send_pcmd_command	../pyparrot/networking/bleConnection.py	/^    def send_pcmd_command(self, command_tuple, roll, pitch, yaw, vertical_movement, duration):$/;"	kind:member	line:402
+send_pcmd_command	../pyparrot/networking/wifiConnection.py	/^    def send_pcmd_command(self, command_tuple, roll, pitch, yaw, vertical_movement, duration):$/;"	kind:member	line:526
+send_turn_command	../pyparrot/networking/bleConnection.py	/^    def send_turn_command(self, command_tuple, degrees):$/;"	kind:member	line:345
+send_turn_command	../pyparrot/networking/wifiConnection.py	/^    def send_turn_command(self, command_tuple, degrees):$/;"	kind:member	line:572
+set_agl	../pyparrot/utils/vlc.py	/^    def set_agl(self, drawable):$/;"	kind:member	line:3323
+set_android_context	../pyparrot/utils/vlc.py	/^    def set_android_context(self, p_awindow_handler):$/;"	kind:member	line:3571
+set_app_id	../pyparrot/utils/vlc.py	/^    def set_app_id(self, id, version, icon):$/;"	kind:member	line:1859
+set_chapter	../pyparrot/utils/vlc.py	/^    def set_chapter(self, i_chapter):$/;"	kind:member	line:3676
+set_equalizer	../pyparrot/utils/vlc.py	/^    def set_equalizer(self, p_equalizer):$/;"	kind:member	line:4304
+set_evas_object	../pyparrot/utils/vlc.py	/^    def set_evas_object(self, p_evas_object):$/;"	kind:member	line:3579
+set_fullscreen	../pyparrot/utils/vlc.py	/^    def set_fullscreen(self, b_fullscreen):$/;"	kind:member	line:3842
+set_hwnd	../pyparrot/utils/vlc.py	/^    def set_hwnd(self, drawable):$/;"	kind:member	line:3259
+set_log_verbosity	../pyparrot/utils/vlc.py	/^    def set_log_verbosity(self, level):$/;"	kind:member	line:2303
+set_max_tilt	../pyparrot/Mambo.py	/^    def set_max_tilt(self, value):$/;"	kind:member	line:576
+set_max_vertical_speed	../pyparrot/Mambo.py	/^    def set_max_vertical_speed(self, value):$/;"	kind:member	line:558
+set_media	../pyparrot/utils/vlc.py	/^    def set_media(self, p_md):$/;"	kind:member	line:2899
+set_media	../pyparrot/utils/vlc.py	/^    def set_media(self, p_md):$/;"	kind:member	line:3368
+set_media_list	../pyparrot/utils/vlc.py	/^    def set_media_list(self, p_mlist):$/;"	kind:member	line:3066
+set_media_player	../pyparrot/utils/vlc.py	/^    def set_media_player(self, p_mi):$/;"	kind:member	line:3052
+set_meta	../pyparrot/utils/vlc.py	/^    def set_meta(self, e_meta, psz_value):$/;"	kind:member	line:2525
+set_mrl	../pyparrot/utils/vlc.py	/^    def set_mrl(self, mrl, *options):$/;"	kind:member	line:3185
+set_nsobject	../pyparrot/utils/vlc.py	/^    def set_nsobject(self, drawable):$/;"	kind:member	line:3494
+set_pause	../pyparrot/utils/vlc.py	/^    def set_pause(self, do_pause):$/;"	kind:member	line:3085
+set_pause	../pyparrot/utils/vlc.py	/^    def set_pause(self, do_pause):$/;"	kind:member	line:3404
+set_playback_mode	../pyparrot/utils/vlc.py	/^    def set_playback_mode(self, e_mode):$/;"	kind:member	line:3150
+set_position	../pyparrot/utils/vlc.py	/^    def set_position(self, f_pos):$/;"	kind:member	line:3667
+set_rate	../pyparrot/utils/vlc.py	/^    def set_rate(self, rate):$/;"	kind:member	line:3754
+set_renderer	../pyparrot/utils/vlc.py	/^    def set_renderer(self, p_item):$/;"	kind:member	line:3424
+set_role	../pyparrot/utils/vlc.py	/^    def set_role(self, role):$/;"	kind:member	line:4335
+set_scale	../pyparrot/coursework/droneMapGUI.py	/^    def set_scale(self):$/;"	kind:member	line:131
+set_time	../pyparrot/utils/vlc.py	/^    def set_time(self, i_time):$/;"	kind:member	line:3652
+set_title	../pyparrot/utils/vlc.py	/^    def set_title(self, i_title):$/;"	kind:member	line:3712
+set_user_agent	../pyparrot/utils/vlc.py	/^    def set_user_agent(self, name, http):$/;"	kind:member	line:1849
+set_user_callback_function	../pyparrot/DroneVision.py	/^    def set_user_callback_function(self, user_callback_function=None, user_callback_args=None):$/;"	kind:member	line:55
+set_user_callback_function	../pyparrot/DroneVisionGUI.py	/^    def set_user_callback_function(self, user_callback_function=None, user_callback_args=None):$/;"	kind:member	line:225
+set_user_callback_function	../pyparrot/Mambo.py	/^    def set_user_callback_function(self, function, args):$/;"	kind:member	line:60
+set_user_data	../pyparrot/utils/vlc.py	/^    def set_user_data(self, p_new_user_data):$/;"	kind:member	line:2627
+set_user_sensor_callback	../pyparrot/Mambo.py	/^    def set_user_sensor_callback(self, function, args):$/;"	kind:member	line:237
+set_video_stream_mode	../pyparrot/Bebop.py	/^    def set_video_stream_mode(self,mode='low_latency'):$/;"	kind:member	line:316
+set_video_title_display	../pyparrot/utils/vlc.py	/^    def set_video_title_display(self, position, timeout):$/;"	kind:member	line:3812
+set_xwindow	../pyparrot/utils/vlc.py	/^    def set_xwindow(self, drawable):$/;"	kind:member	line:3529
+shape	../train_nn.py	/^    shape=[ None, 32, 32, 3 ],$/;"	kind:variable	line:31
+show_metric	../train_nn.py	/^    show_metric=True,$/;"	kind:variable	line:56
+slaves_add	../pyparrot/utils/vlc.py	/^    def slaves_add(self, i_type, i_priority, psz_uri):$/;"	kind:member	line:2652
+slaves_clear	../pyparrot/utils/vlc.py	/^    def slaves_clear(self):$/;"	kind:member	line:2668
+slaves_get	../pyparrot/utils/vlc.py	/^    def slaves_get(self, ppp_slaves):$/;"	kind:member	line:2676
+smart_sleep	../pyparrot/Bebop.py	/^    def smart_sleep(self, timeout):$/;"	kind:member	line:216
+smart_sleep	../pyparrot/Mambo.py	/^    def smart_sleep(self, timeout):$/;"	kind:member	line:373
+smart_sleep	../pyparrot/networking/bleConnection.py	/^    def smart_sleep(self, timeout):$/;"	kind:member	line:566
+smart_sleep	../pyparrot/networking/wifiConnection.py	/^    def smart_sleep(self, timeout):$/;"	kind:member	line:640
+start	../pyparrot/utils/vlc.py	/^    def start(self):$/;"	kind:member	line:2756
+start_video_stream	../pyparrot/Bebop.py	/^    def start_video_stream(self):$/;"	kind:member	line:286
+stop	../pyparrot/utils/vlc.py	/^    def stop(self):$/;"	kind:member	line:2767
+stop	../pyparrot/utils/vlc.py	/^    def stop(self):$/;"	kind:member	line:3130
+stop	../pyparrot/utils/vlc.py	/^    def stop(self):$/;"	kind:member	line:3418
+stop_video_stream	../pyparrot/Bebop.py	/^    def stop_video_stream(self):$/;"	kind:member	line:302
+str	../pyparrot/utils/vlc.py	/^    str = str$/;"	kind:variable	line:66
+str	../pyparrot/utils/vlc.py	/^    str = str$/;"	kind:variable	line:87
+str_to_bytes	../pyparrot/utils/vlc.py	/^    def str_to_bytes(s):$/;"	kind:function	line:71
+str_to_bytes	../pyparrot/utils/vlc.py	/^    def str_to_bytes(s):$/;"	kind:function	line:92
+string_result	../pyparrot/utils/vlc.py	/^def string_result(result, func, arguments):$/;"	kind:function	line:330
+subitems	../pyparrot/utils/vlc.py	/^    def subitems(self):$/;"	kind:member	line:2559
+success	../pyparrot/examples/demoBebopDirectFlight.py	/^success = bebop.connect(10)$/;"	kind:variable	line:10
+success	../pyparrot/examples/demoBebopIndoors.py	/^success = bebop.connect(10)$/;"	kind:variable	line:12
+success	../pyparrot/examples/demoBebopTricks.py	/^success = bebop.connect(10)$/;"	kind:variable	line:6
+success	../pyparrot/examples/demoBebopTricks.py	/^success = bebop.flip(direction="back")$/;"	kind:variable	line:36
+success	../pyparrot/examples/demoBebopTricks.py	/^success = bebop.flip(direction="front")$/;"	kind:variable	line:30
+success	../pyparrot/examples/demoBebopTricks.py	/^success = bebop.flip(direction="left")$/;"	kind:variable	line:18
+success	../pyparrot/examples/demoBebopTricks.py	/^success = bebop.flip(direction="right")$/;"	kind:variable	line:24
+success	../pyparrot/examples/demoBebopVision.py	/^    success = bebopVision.open_video()$/;"	kind:variable	line:39
+success	../pyparrot/examples/demoBebopVision.py	/^success = bebop.connect(5)$/;"	kind:variable	line:31
+success	../pyparrot/examples/demoBebopVisionGUI.py	/^    success = bebop.connect(5)$/;"	kind:variable	line:63
+success	../pyparrot/examples/demoMamboClaw.py	/^success = mambo.connect(num_retries=3)$/;"	kind:variable	line:15
+success	../pyparrot/examples/demoMamboDirectFlight.py	/^success = mambo.connect(num_retries=3)$/;"	kind:variable	line:15
+success	../pyparrot/examples/demoMamboGun.py	/^success = mambo.connect(num_retries=3)$/;"	kind:variable	line:15
+success	../pyparrot/examples/demoMamboTricks.py	/^        success = mambo.flip(direction="back")$/;"	kind:variable	line:53
+success	../pyparrot/examples/demoMamboTricks.py	/^        success = mambo.flip(direction="front")$/;"	kind:variable	line:47
+success	../pyparrot/examples/demoMamboTricks.py	/^        success = mambo.flip(direction="left")$/;"	kind:variable	line:35
+success	../pyparrot/examples/demoMamboTricks.py	/^        success = mambo.flip(direction="right")$/;"	kind:variable	line:41
+success	../pyparrot/examples/demoMamboTricks.py	/^success = mambo.connect(num_retries=3)$/;"	kind:variable	line:15
+success	../pyparrot/examples/demoMamboVision.py	/^    success = mamboVision.open_video()$/;"	kind:variable	line:53
+success	../pyparrot/examples/demoMamboVision.py	/^success = mambo.connect(num_retries=3)$/;"	kind:variable	line:39
+success	../pyparrot/examples/demoMamboVisionGUI.py	/^    success = mambo.connect(num_retries=3)$/;"	kind:variable	line:80
+take_picture	../pyparrot/Mambo.py	/^    def take_picture(self):$/;"	kind:member	line:445
+takeoff	../pyparrot/Bebop.py	/^    def takeoff(self):$/;"	kind:member	line:134
+takeoff	../pyparrot/Mambo.py	/^    def takeoff(self):$/;"	kind:member	line:301
+testFlying	../pyparrot/examples/demoMamboVision.py	/^testFlying = False$/;"	kind:variable	line:12
+testFlying	../pyparrot/examples/demoMamboVisionGUI.py	/^testFlying = True$/;"	kind:variable	line:11
+toggle_echo_position	../pyparrot/utils/vlc.py	/^        def toggle_echo_position():$/;"	kind:function	line:8413
+toggle_fullscreen	../pyparrot/utils/vlc.py	/^    def toggle_fullscreen(self):$/;"	kind:member	line:3834
+toggle_obstacle_click	../pyparrot/coursework/droneMapGUI.py	/^    def toggle_obstacle_click(self, event):$/;"	kind:member	line:50
+toggle_teletext	../pyparrot/utils/vlc.py	/^    def toggle_teletext(self):$/;"	kind:member	line:3344
+track_description_list	../pyparrot/utils/vlc.py	/^def track_description_list(head):$/;"	kind:function	line:1485
+tracks_get	../pyparrot/utils/vlc.py	/^    def tracks_get(self):$/;"	kind:member	line:2427
+train_imgs	../train_nn.py	/^train_imgs = os.listdir('train_imgs')$/;"	kind:variable	line:15
+train_labels	../train_nn.py	/^train_labels = [ name[0] for name in train_imgs ]$/;"	kind:variable	line:16
+train_labels	../train_nn.py	/^train_labels = to_categorical(train_labels)$/;"	kind:variable	line:20
+train_nn.py	../train_nn.py	1;"	kind:file	line:1
+translate_click	../pyparrot/coursework/droneMapGUI.py	/^    def translate_click(self, event):$/;"	kind:member	line:27
+turn_degrees	../pyparrot/Mambo.py	/^    def turn_degrees(self, degrees):$/;"	kind:member	line:415
+turn_on_auto_takeoff	../pyparrot/Mambo.py	/^    def turn_on_auto_takeoff(self):$/;"	kind:member	line:435
+unicode	../pyparrot/utils/vlc.py	/^    unicode = str$/;"	kind:variable	line:67
+unicode	../pyparrot/utils/vlc.py	/^    unicode = unicode$/;"	kind:variable	line:88
+unlock	../pyparrot/utils/vlc.py	/^    def unlock(self):$/;"	kind:member	line:2986
+update	../pyparrot/Bebop.py	/^    def update(self, sensor_name, sensor_value, sensor_enum):$/;"	kind:member	line:21
+update	../pyparrot/Mambo.py	/^    def update(self, name, value, sensor_enum):$/;"	kind:member	line:71
+update_sensors	../pyparrot/Bebop.py	/^    def update_sensors(self, data_type, buffer_id, sequence_number, raw_data, ack):$/;"	kind:member	line:74
+update_sensors	../pyparrot/Mambo.py	/^    def update_sensors(self, data_type, buffer_id, sequence_number, raw_data, ack):$/;"	kind:member	line:248
+userVision	../pyparrot/examples/demoBebopVision.py	/^    userVision = UserVision(bebopVision)$/;"	kind:variable	line:37
+userVision	../pyparrot/examples/demoBebopVisionGUI.py	/^        userVision = UserVision(bebopVision)$/;"	kind:variable	line:70
+userVision	../pyparrot/examples/demoMamboVision.py	/^    userVision = UserVision(mamboVision)$/;"	kind:variable	line:51
+userVision	../pyparrot/examples/demoMamboVisionGUI.py	/^        userVision = UserVision(mamboVision)$/;"	kind:variable	line:93
+user_args	../pyparrot/examples/demoBebopVisionGUI.py	/^                                     user_args=(bebop, ))$/;"	kind:variable	line:68
+validation_set	../train_nn.py	/^    validation_set=(test_imgs, test_labels),$/;"	kind:variable	line:55
+video_filter_list_get	../pyparrot/utils/vlc.py	/^    def video_filter_list_get(self):$/;"	kind:member	line:1819
+video_get_adjust_float	../pyparrot/utils/vlc.py	/^    def video_get_adjust_float(self, option):$/;"	kind:member	line:4126
+video_get_adjust_int	../pyparrot/utils/vlc.py	/^    def video_get_adjust_int(self, option):$/;"	kind:member	line:4106
+video_get_aspect_ratio	../pyparrot/utils/vlc.py	/^    def video_get_aspect_ratio(self):$/;"	kind:member	line:3906
+video_get_chapter_description	../pyparrot/utils/vlc.py	/^    def video_get_chapter_description(self, title):$/;"	kind:member	line:3210
+video_get_crop_geometry	../pyparrot/utils/vlc.py	/^    def video_get_crop_geometry(self):$/;"	kind:member	line:3974
+video_get_cursor	../pyparrot/utils/vlc.py	/^    def video_get_cursor(self, num=0):$/;"	kind:member	line:3286
+video_get_height	../pyparrot/utils/vlc.py	/^    def video_get_height(self, num=0):$/;"	kind:member	line:3279
+video_get_logo_int	../pyparrot/utils/vlc.py	/^    def video_get_logo_int(self, option):$/;"	kind:member	line:4079
+video_get_marquee_int	../pyparrot/utils/vlc.py	/^    def video_get_marquee_int(self, option):$/;"	kind:member	line:4047
+video_get_marquee_string	../pyparrot/utils/vlc.py	/^    def video_get_marquee_string(self, option):$/;"	kind:member	line:4054
+video_get_scale	../pyparrot/utils/vlc.py	/^    def video_get_scale(self):$/;"	kind:member	line:3887
+video_get_size	../pyparrot/utils/vlc.py	/^    def video_get_size(self, num=0):$/;"	kind:member	line:3248
+video_get_spu	../pyparrot/utils/vlc.py	/^    def video_get_spu(self):$/;"	kind:member	line:3931
+video_get_spu_count	../pyparrot/utils/vlc.py	/^    def video_get_spu_count(self):$/;"	kind:member	line:3938
+video_get_spu_delay	../pyparrot/utils/vlc.py	/^    def video_get_spu_delay(self):$/;"	kind:member	line:3953
+video_get_spu_description	../pyparrot/utils/vlc.py	/^    def video_get_spu_description(self):$/;"	kind:member	line:3200
+video_get_teletext	../pyparrot/utils/vlc.py	/^    def video_get_teletext(self):$/;"	kind:member	line:3988
+video_get_title_description	../pyparrot/utils/vlc.py	/^    def video_get_title_description(self):$/;"	kind:member	line:3205
+video_get_track	../pyparrot/utils/vlc.py	/^    def video_get_track(self):$/;"	kind:member	line:4012
+video_get_track_count	../pyparrot/utils/vlc.py	/^    def video_get_track_count(self):$/;"	kind:member	line:4005
+video_get_track_description	../pyparrot/utils/vlc.py	/^    def video_get_track_description(self):$/;"	kind:member	line:3217
+video_get_width	../pyparrot/utils/vlc.py	/^    def video_get_width(self, num=0):$/;"	kind:member	line:3272
+video_set_adjust_float	../pyparrot/utils/vlc.py	/^    def video_set_adjust_float(self, option, value):$/;"	kind:member	line:4134
+video_set_adjust_int	../pyparrot/utils/vlc.py	/^    def video_set_adjust_int(self, option, value):$/;"	kind:member	line:4114
+video_set_aspect_ratio	../pyparrot/utils/vlc.py	/^    def video_set_aspect_ratio(self, psz_aspect):$/;"	kind:member	line:3913
+video_set_callbacks	../pyparrot/utils/vlc.py	/^    def video_set_callbacks(self, lock, unlock, display, opaque):$/;"	kind:member	line:3436
+video_set_crop_geometry	../pyparrot/utils/vlc.py	/^    def video_set_crop_geometry(self, psz_geometry):$/;"	kind:member	line:3981
+video_set_deinterlace	../pyparrot/utils/vlc.py	/^    def video_set_deinterlace(self, psz_mode):$/;"	kind:member	line:4040
+video_set_format	../pyparrot/utils/vlc.py	/^    def video_set_format(self, chroma, width, height, pitch):$/;"	kind:member	line:3470
+video_set_format_callbacks	../pyparrot/utils/vlc.py	/^    def video_set_format_callbacks(self, setup, cleanup):$/;"	kind:member	line:3484
+video_set_key_input	../pyparrot/utils/vlc.py	/^    def video_set_key_input(self, on):$/;"	kind:member	line:3862
+video_set_logo_int	../pyparrot/utils/vlc.py	/^    def video_set_logo_int(self, option, value):$/;"	kind:member	line:4086
+video_set_logo_string	../pyparrot/utils/vlc.py	/^    def video_set_logo_string(self, option, psz_value):$/;"	kind:member	line:4097
+video_set_marquee_int	../pyparrot/utils/vlc.py	/^    def video_set_marquee_int(self, option, i_val):$/;"	kind:member	line:4061
+video_set_marquee_string	../pyparrot/utils/vlc.py	/^    def video_set_marquee_string(self, option, psz_text):$/;"	kind:member	line:4071
+video_set_mouse_input	../pyparrot/utils/vlc.py	/^    def video_set_mouse_input(self, on):$/;"	kind:member	line:3876
+video_set_scale	../pyparrot/utils/vlc.py	/^    def video_set_scale(self, f_factor):$/;"	kind:member	line:3895
+video_set_spu	../pyparrot/utils/vlc.py	/^    def video_set_spu(self, i_spu):$/;"	kind:member	line:3945
+video_set_spu_delay	../pyparrot/utils/vlc.py	/^    def video_set_spu_delay(self, i_delay):$/;"	kind:member	line:3962
+video_set_subtitle_file	../pyparrot/utils/vlc.py	/^    def video_set_subtitle_file(self, psz_subtitle):$/;"	kind:member	line:3335
+video_set_teletext	../pyparrot/utils/vlc.py	/^    def video_set_teletext(self, i_page):$/;"	kind:member	line:3997
+video_set_track	../pyparrot/utils/vlc.py	/^    def video_set_track(self, i_track):$/;"	kind:member	line:4019
+video_take_snapshot	../pyparrot/utils/vlc.py	/^    def video_take_snapshot(self, num, psz_filepath, i_width, i_height):$/;"	kind:member	line:4027
+video_update_viewpoint	../pyparrot/utils/vlc.py	/^    def video_update_viewpoint(self, p_viewpoint, b_absolute):$/;"	kind:member	line:3920
+vlc.py	../pyparrot/utils/vlc.py	1;"	kind:file	line:1
+vlm_add_broadcast	../pyparrot/utils/vlc.py	/^    def vlm_add_broadcast(self, psz_name, psz_input, psz_output, i_options, ppsz_options, b_enabled, b_loop):$/;"	kind:member	line:1940
+vlm_add_input	../pyparrot/utils/vlc.py	/^    def vlm_add_input(self, psz_name, psz_input):$/;"	kind:member	line:2003
+vlm_add_vod	../pyparrot/utils/vlc.py	/^    def vlm_add_vod(self, psz_name, psz_input, i_options, ppsz_options, b_enabled, psz_mux):$/;"	kind:member	line:1954
+vlm_change_media	../pyparrot/utils/vlc.py	/^    def vlm_change_media(self, psz_name, psz_input, psz_output, i_options, ppsz_options, b_enabled, b_loop):$/;"	kind:member	line:2030
+vlm_del_media	../pyparrot/utils/vlc.py	/^    def vlm_del_media(self, psz_name):$/;"	kind:member	line:1967
+vlm_get_event_manager	../pyparrot/utils/vlc.py	/^    def vlm_get_event_manager(self):$/;"	kind:member	line:2159
+vlm_get_media_instance_chapter	../pyparrot/utils/vlc.py	/^    def vlm_get_media_instance_chapter(self, psz_name, i_instance):$/;"	kind:member	line:2139
+vlm_get_media_instance_length	../pyparrot/utils/vlc.py	/^    def vlm_get_media_instance_length(self, psz_name, i_instance):$/;"	kind:member	line:2111
+vlm_get_media_instance_position	../pyparrot/utils/vlc.py	/^    def vlm_get_media_instance_position(self, psz_name, i_instance):$/;"	kind:member	line:2093
+vlm_get_media_instance_rate	../pyparrot/utils/vlc.py	/^    def vlm_get_media_instance_rate(self, psz_name, i_instance):$/;"	kind:member	line:2120
+vlm_get_media_instance_seekable	../pyparrot/utils/vlc.py	/^    def vlm_get_media_instance_seekable(self, psz_name, i_instance):$/;"	kind:member	line:2149
+vlm_get_media_instance_time	../pyparrot/utils/vlc.py	/^    def vlm_get_media_instance_time(self, psz_name, i_instance):$/;"	kind:member	line:2102
+vlm_get_media_instance_title	../pyparrot/utils/vlc.py	/^    def vlm_get_media_instance_title(self, psz_name, i_instance):$/;"	kind:member	line:2129
+vlm_pause_media	../pyparrot/utils/vlc.py	/^    def vlm_pause_media(self, psz_name):$/;"	kind:member	line:2061
+vlm_play_media	../pyparrot/utils/vlc.py	/^    def vlm_play_media(self, psz_name):$/;"	kind:member	line:2045
+vlm_release	../pyparrot/utils/vlc.py	/^    def vlm_release(self):$/;"	kind:member	line:1934
+vlm_seek_media	../pyparrot/utils/vlc.py	/^    def vlm_seek_media(self, psz_name, f_percentage):$/;"	kind:member	line:2069
+vlm_set_enabled	../pyparrot/utils/vlc.py	/^    def vlm_set_enabled(self, psz_name, b_enabled):$/;"	kind:member	line:1975
+vlm_set_input	../pyparrot/utils/vlc.py	/^    def vlm_set_input(self, psz_name, psz_input):$/;"	kind:member	line:1993
+vlm_set_loop	../pyparrot/utils/vlc.py	/^    def vlm_set_loop(self, psz_name, b_loop):$/;"	kind:member	line:2012
+vlm_set_mux	../pyparrot/utils/vlc.py	/^    def vlm_set_mux(self, psz_name, psz_mux):$/;"	kind:member	line:2021
+vlm_set_output	../pyparrot/utils/vlc.py	/^    def vlm_set_output(self, psz_name, psz_output):$/;"	kind:member	line:1984
+vlm_show_media	../pyparrot/utils/vlc.py	/^    def vlm_show_media(self, psz_name):$/;"	kind:member	line:2078
+vlm_stop_media	../pyparrot/utils/vlc.py	/^    def vlm_stop_media(self, psz_name):$/;"	kind:member	line:2053
+wait	../pyparrot/utils/vlc.py	/^    def wait(self):$/;"	kind:member	line:2288
+wifiConnection.py	../pyparrot/networking/wifiConnection.py	1;"	kind:file	line:1
+will_play	../pyparrot/utils/vlc.py	/^    def will_play(self):$/;"	kind:member	line:3697
+wrap_errcheck	../pyparrot/utils/vlc.py	/^    def wrap_errcheck(result, func, arguments):$/;"	kind:function	line:346
