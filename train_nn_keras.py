@@ -12,7 +12,6 @@ from tqdm import tqdm
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 from keras import backend as K
 import numpy as np
-import pickle as pk
 
 model = Sequential()
 model.add(Conv2D(32, (3, 3), input_shape=(150, 150, 3)))

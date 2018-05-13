@@ -76,7 +76,10 @@
 		\item No Action
 	\end{itemize}
 
-	\quad Element 1 of Figure 1 shows the position relative to the quadcopter (red circle) that the cube (green square) is held when we obtain the training data for the Straight category. This is because the course of action the quadcopter should take is determined by where the cube is in the quadcopter's field of vision. Thus, the category for element 2 will be Right, element 3 is Left, and the No Action category is just a quadcopter view without the target at all. The images will be downsized to $32x32px$, and used to train the NN to classify images from the quadcopter's feed. \newline
+	\quad Element 1 of Figure 1 shows the position relative to the quadcopter (red circle) that the cube (green square) is held when we obtain the training data for the Straight category. 
+	This is because the course of action the quadcopter should take is determined by where the cube is in the quadcopter's field of vision. 
+	Thus, the category for element 2 will be Right, element 3 is Left, and the No Action category is just a quadcopter view without the target at all. 
+	The images will be downsized to $32x32px$, and used to train the NN to classify images from the quadcopter's feed. \newline
 
 	\quad In production, the process will work as follows:
 	
@@ -90,7 +93,8 @@
 		\item{Return to step 1}
 	\end{enumerate}
 	
-	\quad In this way, the quadcopter will act autonomously, although paired with another computer. However, given the small file size of the project, it would be feasable to port the NN and scripts to run it onto the board of a quadcopter, such that it could drive itself autonomously, without being paired with another computer.
+	\quad In this way, the quadcopter will act autonomously, although paired with another computer. 
+	However, given the small file size of the project, it would be feasable to port the NN and scripts to run it onto the board of a quadcopter, such that it could drive itself autonomously, without being paired with another computer.
 
 }
 
@@ -128,6 +132,15 @@
 			\item{Sigmoid Activation layer}
 		\end{itemize}
 	\end{itemize}
+}
+
+\section{Conclusions}
+{
+	This project was interesting because of the lack of resources to draw from.
+	There were some other generic image classification examples online, for example the online documentation for Keras and Tensorflow. 
+	We ended up simply adapting the methods used there to our situation. 
+	The lack of resources drove us to innovate in many areas, often relying simply on our intuition and experience. 
+	For example, Davis had to rewrite some of the code to connect with the drone and get images from it, and I had to reshape and alter the training images in order to get the classifier to work. I also had to research how to compile our model for use in a method that our drone controller could use.
 }
 
 \end{document}
