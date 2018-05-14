@@ -134,13 +134,24 @@
 	\end{itemize}
 }
 
+\section{Problems We Faced}
+{
+	We ran into a countless number of problems with both ends of this project, and each of us had to work through elements on our own and as a team.
+	One of the biggest problems we ran into was the image handling system of the library we used. 
+	OpenCV2 for Python only allows you to take a buffer of images, and does not allow any skips. 
+	Davis overcame this by placing all the images into a last-in-last-out queue to grab the latest image.  
+	I also ran into problems trying to get the model to compile and train efficiently , and how to save the model such that it can be loaded and used quickly enough for the controller to classify and send instructions to the drone. 
+	Parrot, the manufactorer of our drone, also pushed a firmware update which essentially broke the entire library which we used for controlling our drone, which has understandably caused lots of problems. 
+}
+
 \section{Conclusions}
 {
 	This project was interesting because of the lack of resources to draw from.
 	There were some other generic image classification examples online, for example the online documentation for Keras and Tensorflow. 
 	We ended up simply adapting the methods used there to our situation. 
 	The lack of resources drove us to innovate in many areas, often relying simply on our intuition and experience. 
-	For example, Davis had to rewrite some of the code to connect with the drone and get images from it, and I had to reshape and alter the training images in order to get the classifier to work. I also had to research how to compile our model for use in a method that our drone controller could use.
+	For example, Davis had to rewrite some of the code to connect with the drone and get images from it, and I had to reshape and alter the training images in order to get the classifier to work. 
+	I also had to research how to compile our model for use in a method that our drone controller could use.
 }
 
 \end{document}
