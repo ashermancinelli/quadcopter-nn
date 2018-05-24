@@ -11,6 +11,7 @@ import os
 from tqdm import tqdm
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 from keras import backend as K
+import tensorboard as tb
 import numpy as np
 
 model = Sequential()
@@ -61,12 +62,20 @@ validation_generator = test_datagen.flow_from_directory(
     class_mode='categorical'
 )
 
+tb_cb = keras.callbacks.TensorBoard(
+	log_dir='./Graph',
+	histogram_freq=0,
+	write_graph=True,
+	write_images=True
+)
+
 model.fit_generator(
     train_generator,
     steps_per_epoch=2000 // batch_size,
     epochs=10,
     validation_data=validation_generator,
-    validation_steps=800 // batch_size
+    validation_steps=800 // batch_size,
+    callbacks=[tb_cb]
 )
 
 model.save_weights('first_model.h5')
